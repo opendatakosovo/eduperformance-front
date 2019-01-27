@@ -149,7 +149,7 @@ nav ul li a:hover
     margin-left: 6%;
     width:9%;
   }
-
+}
 /*changes in small size - medium*/
 @media only screen and (max-width: 771px) {
   .mt-custom
