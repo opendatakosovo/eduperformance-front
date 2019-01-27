@@ -39,7 +39,10 @@ body
     font-size: 290%;
   }
 
-/*transaprent navbar*/
+
+
+ /*----------------- MENU --------------------*/
+ /*transaprent navbar*/
 .navbar.transparent.navbar-inverse .navbar-inner 
   {
     border-width: 0px;
@@ -87,8 +90,11 @@ a:hover
     transition: width .3s;
   }
 
-/*line after heading1 */
-hr
+ /*----------------- END MENU --------------------*/
+
+
+/*line after heading1(hr) */
+.lineBlue
   {
     width:7%;
     margin-left:4%; 
@@ -100,6 +106,8 @@ hr
   margin-left:2%;
   width:5%;
 }
+
+
 /*change some things to make responsive header*/
 @media only screen and (max-width: 1199px) 
 {
@@ -107,18 +115,23 @@ hr
    {
      margin-top: 14%;
    }
-
-  hr
+   
+   /* hr tag style*/
+  .lineBlue
    {
      margin-left: 5.3%;
    }
 
+
+  /* --- MENU LINE >1199px  ----*/
  .login-line
    {
      padding-right: 4px;
    } 
+  /* ---END MENU LINE >1199px----*/
 
-.contributeImg
+
+ .contributeImg
    {
      width:3%;
      margin-left: 2%;
@@ -131,7 +144,7 @@ hr
    {
      margin-top: 15.4%;
    }
- hr
+ .lineBlue
   {
     margin-left: 6%;
     width:9%;
@@ -149,6 +162,7 @@ hr
      background-image: url(images/Second-small.png);
    }
   
+  /*----- MENU SIZE >771px  -------*/
   .linkmenu:hover::after
    {
      width: 0%;
@@ -156,27 +170,32 @@ hr
      transition: width .3s;
    }
 
+   
   .linkactive::after
    {
      width: 0%;
    }
 
-  hr
+   .login-line
+   {
+     display: none;
+   }
+  /*----- END MENU >771px --------*/
+  
+
+  /*---- HR ----*/
+  .lineBlue
    {
      margin-left: 9%;
      width:12%;
    }
-
-  .login-line
-   {
-     display: none;
-   }
+  
 }
 
   
-/*specific change*/
+/*---- hr change >575px ----*/
 @media only screen and (max-width: 576px) {
- hr
+ .lineBlue
   {
     margin-left: 6%;
     width:14%;
