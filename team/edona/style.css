@@ -1,0 +1,49 @@
+/*Style of three first paragraphs*/
+#paragraph1{
+
+	color: #0067f4 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#paragraph2, #paragraph3{
+
+	color: ##999798 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 15px;
+}
+
+/*Style of the second content*/
+.component {
+	color: #999798 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.content2 {
+	color: #999798;
+	font-family: 'Poppins',sans-serif;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	padding: 20px;
+}
+div#t2 {
+	width: 400px;
+}
+.main-container .form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #0067f4;
+	border-width: 2px;
+	outline: 1px;
+	box-shadow: none;
+}
+
+
+
+
+
