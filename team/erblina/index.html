@@ -12,91 +12,97 @@
 
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../../vendor/datatables/jquery.dataTables.min.css" rel="stylesheet">
+ <!-- <link href="../../vendor/datatables/jquery.dataTables.min.css" rel="stylesheet">-->
   <link href="../../vendor/datatables/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
   <!-- Main css-->
   <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
+  <br>
+  <strong><p style="text-align: center; color: #0067f4;">Best Teachers/Schools</p></strong>
 
 
   <!-- Page Content -->
   <div class="container main-container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Erblina Workspace</h1>
-        <table id="example" class="display responsive nowrap" style="width:100%">
+    <div class="row no-gutters">
+
+      <div class="col-lg-4">
+    
+        <img src="bestteacher.png" class="img-fluid">
+        
+      <p id="para1">Best<br> Teachers</p></div>
+      <div class="col-lg-8 text-center">
+        <table id="example" class="table table-hover table-sm table-striped float-left display responsive nowrap" style="width:100%">
         <thead>
             <tr>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
-                <th>Extn.</th>
-                <th>E-mail</th>
+                <th>RANK</th>
+                <th>TEACHER</th>
+                <th>RATING</th>
+                <th>SCHOOL</th>
+                <th>CITY</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Tiger</td>
-                <td>Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011/04/25</td>
-                <td>$320,800</td>
-                <td>5421</td>
-                <td>t.nixon@datatables.net</td>
+                <td><span class="badge badge-primary badge-custom">1</span></td>
+                <td>Allannah Maucle</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"></td>
+                <td>Crossroads Secondary School</td>
+                <td>St.Paul</td>
+            </tr>
+            <tr class="selected-row">
+                <td><span class="badge badge-primary badge-custom"><div style="color:white">2</div></span></td>
+                <td>Rigby Tamsen</td>
+                <td><img src="blue-star.png"><img src="blue-star.png"><img src="blue-star.png"><img src="blue-star.png"><img src="white-star.png"></td>
+                <td>Sunset Academy</td>
+                <td>Chicago</td>
             </tr>
             <tr>
-                <td>Garrett</td>
-                <td>Winters</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>63</td>
-                <td>2011/07/25</td>
-                <td>$170,750</td>
-                <td>8422</td>
-                <td>g.winters@datatables.net</td>
+                <td><span class="badge badge-primary badge-custom">3</span></td>
+                <td>Irvin Bryn</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"></td>
+                <td>Riverbank Elementary</td>
+                <td>Arlington</td>
             </tr>
             <tr>
-                <td>Ashton</td>
-                <td>Cox</td>
-                <td>Junior Technical Author</td>
-                <td>San Francisco</td>
-                <td>66</td>
-                <td>2009/01/12</td>
-                <td>$86,000</td>
-                <td>1562</td>
-                <td>a.cox@datatables.net</td>
-            </tr>
-            <tr>
-                <td>Cedric</td>
-                <td>Kelly</td>
-                <td>Senior Javascript Developer</td>
-                <td>Edinburgh</td>
-                <td>22</td>
-                <td>2012/03/29</td>
-                <td>$433,060</td>
-                <td>6224</td>
-                <td>c.kelly@datatables.net</td>
+                <td><span class="badge badge-primary badge-custom">4</span></td>
+                <td>Ivan Adalynn</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="white-star.png"></td>
+                <td>Summerville High</td>
+                <td>Modesto</td>
             </tr>
             
             <tr>
-                <td>Charde</td>
-                <td>Marshall</td>
-                <td>Regional Director</td>
-                <td>San Francisco</td>
-                <td>36</td>
-                <td>2008/10/16</td>
-                <td>$470,600</td>
-                <td>6741</td>
-                <td>c.marshall@datatables.net</td>
+                <td><span class="badge badge-primary badge-custom">5</span></td>
+                <td>Zenia Hazel</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="white-star.png"><img src="white-star.png"></td>
+                <td>Da Vinci Middle School</td>
+                <td>Modesto</td>
+            </tr>
+            <tr>
+                <td><span class="badge badge-primary badge-custom">6</span></td>
+                <td>Polly River</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="white-star.png"><img src=" white-star.png"></td>
+                <td>Littlerock Grammar School</td>
+                <td>Las Vegas</td>
+            </tr>
+            <tr>
+                <td><span class="badge badge-primary badge-custom">7</span></td>
+                <td>Charmaine Selina</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="white-star.png"><img src="white-star.png"></td>
+                <td>Elk Grove Charter School</td>
+                <td>Denver</td>
+            </tr>
+            <tr>
+                <td><span class="badge badge-primary badge-custom">8</span></td>
+                <td>Vonda Irvine</td>
+                <td><img src="star.png"><img src="star.png"><img src="star.png"><img src="white-star.png"><img src="white-star.png"></td>
+                <td>Ravenwood Middle School</td>
+                <td>Greensboro</td>
             </tr>
           
            
@@ -109,8 +115,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="../../vendor/jquery/jquery.min.js"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../../vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="../../vendor/datatables/datatables.responsive.min.js"></script>
+ <!-- <script src="../../vendor/datatables/jquery.dataTables.min.js"></script>-->
+ <script src="../../vendor/datatables/datatables.responsive.min.js"></script>
   
   <script src="main.js"></script>
 

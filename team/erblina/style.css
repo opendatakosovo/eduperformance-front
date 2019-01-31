@@ -1,0 +1,42 @@
+body
+  {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.badge-custom{
+    border-radius: 50%;
+    background-color: #0067f4;
+}
+#para1{
+     position: absolute;
+    bottom: 0;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+
+}
+
+tr{
+    color:;
+}
+
+#example tbody td{
+    color: #999798;
+}
+
+#example thead th{
+    color: #999798;
+}
+#example .selected-row td{
+    color:#0067f4 !important;
+    border-bottom:1px solid #0067f4;
+    border-top:1px solid #0067f4;
+}
+
+td {border: 1px #DDD solid; padding: 5px; cursor: pointer;}
+
+.selected {
+    background-color: brown;
+    color: #FFF;
+}
+
