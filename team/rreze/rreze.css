@@ -1,0 +1,67 @@
+body
+  {
+    font-family: 'Poppins', sans-serif;
+  }
+.badge-custom{
+	border-radius: 50%;
+	background-color: #0067f4;
+}
+
+.BestSchoolBackground
+{
+	background-image: url(bestschool.png);
+	background-repeat:no-repeat; 
+    background-size:cover;
+}
+.customFont
+{
+	font-weight: bold;
+	font-size: 320%;
+}
+
+.mt-BestSchool{
+	margin-top: 62%;
+   }
+
+@media only screen and (min-width:1603px)
+{
+	.mt-BestSchool{
+	margin-top: 50% !important;
+   }
+}
+@media only screen and (max-width: 1086px) {
+ .mt-BestSchool{
+	margin-top: 140% !important;
+   }
+}
+@media only screen and (min-width:1998px)
+{
+	.mt-BestSchool{
+	margin-top: 40% !important;
+   }
+}
+@media only screen and (max-width: 991.3px) {
+  .BestSchoolBackground
+   {
+    display: none;
+   }
+}
+
+
+#example tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+#example .selected-row td{
+	color:#0067f4 !important;
+	border-bottom:1px solid #0067f4 !important;
+	border-top:1px solid #0067f4 !important;
+}
+
+#example tbody tr{
+	color: #999798;
+}
+
+#example thead tr th{
+	color: rgb(150,150,150);
+}
