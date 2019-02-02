@@ -1,0 +1,36 @@
+.main-container{
+	background-color: #f1f0f0f3;
+}
+.main-container h1{
+  color: #0067f4;
+  font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 280%;
+}
+.main-container p{
+  color: #999798;
+  font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 120%;
+}
+.form-group label{
+  font-weight:bold;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 15px;
+  margin-bottom: 38px;
+  margin-top: 18px;
+
+ }
+ .main-container hr{
+   text-align: center;
+   width: 81%;
+   margin-bottom: 35px;
+ }
+/*  
+ button{
+   margin-top: 25%;
+   margin-bottom: 40%;
+ } */
