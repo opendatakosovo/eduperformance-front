@@ -17,21 +17,21 @@ body
 /*set image in header like background image*/
 .div-backgroundLanding
   {
-    background-image: url(images/landingKamenica.png); 
+    background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landingKamenica.png); 
     background-repeat:no-repeat; 
     background-size:cover;
     height:100vh;
   }
  .div-backgroundLandingKlina
   {
-    background-image: url(images/landingKline.png); 
+    background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landingKline.png); 
     background-repeat:no-repeat; 
     background-size:cover;
     height:100vh;
   }
    .div-backgroundLandingViti
   {
-    background-image: url(images/landingVitia.png); 
+    background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landingVitia.png); 
     background-repeat:no-repeat; 
     background-size:cover;
     height:100vh;
