@@ -26,10 +26,7 @@
     font-weight: 740;
     font-size: 270%;
   }
-.customFontCards{
-   font-weight: 740;
 
-}
 
 .imgSch
 {
@@ -44,3 +41,53 @@
     width: 60px;
   height: 60px;
 }
+
+.imgSch3
+{
+    width: 45px;
+  height: 45px;
+  padding: 4px;
+
+}
+ .customFontCards{
+   font-weight: 740;
+
+}
+ .customFontCards2{
+   color:#0067f4;
+    font-weight: bold;
+
+}
+
+.box {
+  width: 300px;
+  
+  border: 0px solid white;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+
+.box2 {
+
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-image:url('box-about.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+
+/*  .hover1{
+  color:#0067f4;
+    font-weight: bold;
+  }
+*/
+
+
+
+
+  
+
