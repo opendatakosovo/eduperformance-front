@@ -261,5 +261,9 @@ width:fit-content;
 width: fit-content;
    height: auto;
 }
+  .landing-font
+  {
+    font-size:200% !important;
+  }
 }
 
