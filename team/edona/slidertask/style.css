@@ -188,7 +188,4 @@ p a:hover {
 #volume.v4 .ui-slider-handle::after {
   content: '\1F60F';
 }
-#volume.v5 .ui-slider-handle::after {
-  content: '\1F60A';
-}
 

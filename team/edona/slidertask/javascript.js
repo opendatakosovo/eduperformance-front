@@ -27,8 +27,8 @@ $(document).ready(function () {
     }
 
     function changeSlider(myVolume) {
-        let volumeThreshold = [15, 30, 45, 60, 70, 80]
-        let volumeClasses = ["v0", "v1", "v2", "v3", "v4", "v5"]
+        let volumeThreshold = [20, 40, 60, 80, 100]
+        let volumeClasses = ["v0", "v1", "v2", "v3", "v4"]
         let classIndex = volumeThreshold.findIndex((threshold) => {
             return myVolume < threshold
         });
