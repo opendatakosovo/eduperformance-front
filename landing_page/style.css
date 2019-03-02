@@ -247,19 +247,7 @@ body
   
 }
 @media only screen and (max-width: 421px) {
-.div-backgroundLanding
-{
-    width: fit-content;
-    height: auto;
-}
-.div-backgroundLandingKlina{
-width:fit-content;
-   height: auto;
-}
-.div-backgroundLandingViti
-{
 
-}
   .landing-font
   {
     font-size:120% !important;
