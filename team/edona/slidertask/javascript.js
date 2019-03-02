@@ -9,9 +9,9 @@ $(document).ready(function () {
         }
     });
     var myMedia = document.createElement('audio');
-    $('#player').append(myMedia);
+    $('#slider-voting').append(myMedia);
     myMedia.id = "myMedia";
-    //
+
     // playAudio('http://a.tumblr.com/tumblr_l14pkbmbuq1qavyj3o1.mp3', 0);
     //
     // function playAudio(fileName, myVolume) {
