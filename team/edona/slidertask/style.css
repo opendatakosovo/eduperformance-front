@@ -132,8 +132,12 @@ p a:hover {
   left: -12.5px;
 }
 #volume.v0 .ui-slider-handle::after {
-  content: '\1F634';
+  /*content: '\1F634';*/
+  content: url(blue/bad-blue.png);
+
 }
+
+
 #volume.v1 .ui-slider-handle::after {
   content: '\1F62B';
 }
