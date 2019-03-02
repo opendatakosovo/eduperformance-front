@@ -11,15 +11,15 @@ $(document).ready(function () {
     var myMedia = document.createElement('audio');
     $('#player').append(myMedia);
     myMedia.id = "myMedia";
-
-    playAudio('http://a.tumblr.com/tumblr_l14pkbmbuq1qavyj3o1.mp3', 0);
-
-    function playAudio(fileName, myVolume) {
-        myMedia.src = fileName;
-        myMedia.setAttribute('loop', 'loop');
-        setVolume(myVolume);
-        myMedia.play();
-    }
+    //
+    // playAudio('http://a.tumblr.com/tumblr_l14pkbmbuq1qavyj3o1.mp3', 0);
+    //
+    // function playAudio(fileName, myVolume) {
+    //     myMedia.src = fileName;
+    //     myMedia.setAttribute('loop', 'loop');
+    //     setVolume(myVolume);
+    //     myMedia.play();
+    // }
 
     function setVolume(myVolume) {
         var myMedia = document.getElementById('myMedia');

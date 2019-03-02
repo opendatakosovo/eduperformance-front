@@ -75,13 +75,17 @@ p a:hover {
   color: #666;
   font-size: 25px;
 }
-#player i.fas fa-minus {
-  margin-left: -20px;
+.fa-minus {
+  color: dodgerblue;
   right: 0;
+  left: -20px;
+  font-size: 0.73em;
+  padding-top: -200px;
 }
-#player i.fas fa-plus {
-  margin-right: -20px;
+.fa-plus {
   right: 0;
+  right: -20px;
+  font-size: 0.73em;
 }
 #volume {
   position: absolute;
