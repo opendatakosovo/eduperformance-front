@@ -2,7 +2,7 @@
 @import url(https://use.fontawesome.com/releases/v5.7.0/css/all.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 body {
-  background: #ffffff;
+  background: #f3f4f6;
   font-family: Raleway;
 }
 h1 {
@@ -32,8 +32,8 @@ p a:hover {
   border-bottom: 2px solid #555;
 }
 body {
-  background: #2a2a2a;
-  font-family: Raleway;
+  background: #f3f4f6;
+  /*font-family: Raleway;*/
 }
 h1 {
   text-align: center;
@@ -62,25 +62,26 @@ p a:hover {
   border-bottom: 2px solid #555;
 }
 
-#player {
+#slider-voting {
   width: 350px;
   height: 50px;
   position: relative;
   margin: 0 auto;
   top: 80px;
 }
-#player i {
+#slider-voting i {
   position: absolute;
-  margin-top: -10px;
+  margin-bottom: 10px;
   color: #666;
-  font-size: 25px;
+  font-size: 17px;
+
 }
 .fa-minus {
   color: dodgerblue;
   right: 0;
   left: -20px;
-  font-size: 0.73em;
   padding-top: -200px;
+  font-max-size: x-small ;
 }
 .fa-plus {
   right: 0;
@@ -93,14 +94,14 @@ p a:hover {
   margin: 0 auto;
   height: 5px;
   width: 300px;
-  background: #555;
+  background: #c1bdc0;
   border-radius: 15px;
 }
 #volume .ui-slider-range-min {
   height: 5px;
   width: 300px;
   position: absolute;
-  background: #ea5732;
+  background: #0067f4;
   border: none;
   border-radius: 10px;
   outline: none;
@@ -109,7 +110,7 @@ p a:hover {
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background: #fff;
+  background: darkgray;
   position: absolute;
   margin-left: -8px;
   margin-top: -8px;
