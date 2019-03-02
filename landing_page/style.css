@@ -258,7 +258,7 @@ width:fit-content;
 }
 .div-backgroundLandingViti
 {
-width: fit-content;
+width: 100% !important;
    height: auto;
 }
   .landing-font
