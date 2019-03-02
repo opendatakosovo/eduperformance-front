@@ -133,8 +133,17 @@ p a:hover {
 }
 #volume.v0 .ui-slider-handle::after {
   /*content: '\1F634';*/
-  content: url(blue/bad-blue.png);
-
+  /*content: url(blue/bad-blue.png);*/
+  width: 70px;
+  height: 70px;
+  background-size: 50px;
+  background-image: url(blue/bad-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
 }
 
 
