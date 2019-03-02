@@ -202,7 +202,9 @@ body
    display:none;
   }
   /*----- END MENU >771px --------*/
-  
+  landing-font{
+  font-size:190% !important;
+  }
 
   
 }
