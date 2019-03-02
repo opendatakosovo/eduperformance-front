@@ -148,24 +148,47 @@ p a:hover {
 
 
 #volume.v1 .ui-slider-handle::after {
-  content: '\1F62B';
+  /*content: '\1F62B';*/
+  width: 70px;
+  height: 70px;
+  background-size: 50px;
+  background-image: url(blue/notgood-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
 }
 #volume.v2 .ui-slider-handle::after {
-  content: '\1F614';
+  width: 70px;
+  height: 70px;
+  background-size: 50px;
+  background-image: url(blue/neutral-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
 }
 #volume.v3 .ui-slider-handle::after {
   content: '\1F60C';
+  width: 70px;
+  height: 70px;
+  background-size: 50px;
+  background-image: url(blue/good-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
 }
 #volume.v4 .ui-slider-handle::after {
   content: '\1F60F';
 }
 #volume.v5 .ui-slider-handle::after {
   content: '\1F60A';
-}
-#volume.v6 .ui-slider-handle::after {
-  content: '\1F604';
-}
-#volume.v7 .ui-slider-handle::after {
-  content: '\1F60D';
 }
 
