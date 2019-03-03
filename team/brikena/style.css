@@ -111,7 +111,21 @@ body
               {
                 font-size: 1.8vw;
               }
-           }   
+           } 
+           @media only screen and (max-width: 577px) 
+           {  
+               .emoji-header
+                 {
+                   width:100%;
+                   height: auto;
+                   
+                 }
+               .component-emoji
+                 {
+                  width: 140% !important;
+                  height: auto;
+                 }
+           }
 /*----------- END Profile header ----------------*/
 
 /*--------------------------- WHITE-BLUE NAVBAR STYLE ----------------------------*/
