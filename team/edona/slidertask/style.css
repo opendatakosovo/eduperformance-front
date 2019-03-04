@@ -134,9 +134,9 @@ p a:hover {
 #volume.v0 .ui-slider-handle::after {
   /*content: '\1F634';*/
   /*content: url(blue/bad-blue.png);*/
-  width: 70px;
-  height: 70px;
-  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  background-size: 30px;
   background-image: url(blue/bad-blue.png);
   /*background-size: 50px 50px;*/
   display: inline-block;
@@ -151,7 +151,7 @@ p a:hover {
   /*content: '\1F62B';*/
   width: 70px;
   height: 70px;
-  background-size: 50px;
+  background-size: 30px;
   background-image: url(blue/notgood-blue.png);
   /*background-size: 50px 50px;*/
   display: inline-block;
@@ -163,7 +163,7 @@ p a:hover {
 #volume.v2 .ui-slider-handle::after {
   width: 70px;
   height: 70px;
-  background-size: 50px;
+  background-size: 30px;
   background-image: url(blue/neutral-blue.png);
   /*background-size: 50px 50px;*/
   display: inline-block;
@@ -176,7 +176,7 @@ p a:hover {
   content: '\1F60C';
   width: 70px;
   height: 70px;
-  background-size: 50px;
+  background-size: 30px;
   background-image: url(blue/good-blue.png);
   /*background-size: 50px 50px;*/
   display: inline-block;
@@ -186,19 +186,29 @@ p a:hover {
   content: "";
 }
 #volume.v4 .ui-slider-handle::after {
-  content: '\1F60F';
+ /* content: '\1F60F';*/
+  width: 70px;
+  height: 70px;
+  background-size: 30px;
+  background-image: url(blue/neutral-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
+
 }
 
-
 .numberCircle{
-  width: 36px;
-  height: 36px;
-  behavior: url(PIE.htc);
+  width: 34px;
+  height: 34px;
   line-height: 50px;
   border-radius: 50%;
-  text-align: center;
-  font-size: x-large;
   font-family: Poppins-Bold;
-  font-size: 20px;
-  border: 2px solid #0067f4;
+  font-size: 22px;
+  font-variant-position: inherit;
+  text-align: center;
+  color: #0067f4;
+  border: 1px solid #0067f4;
 }

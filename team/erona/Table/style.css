@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Mar-2019, 23:22:28
+    Author     : erona
+*/
+
+body
+  {
+    font-family: 'Poppins', sans-serif;
+  }
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+  
+  .customFont
+  {
+    font-weight: 1000;
+    font-weight: bold;
+    font-size:  130%;
+    padding-right: 0%;
+  }
+ 
+  .imgS
+  {  
+      width: 40px;
+      height: 40px;
+      
+  }
+  
+table th:first-child{
+  border-radius:10px 0 0 10px;
+  padding-left:0%;
+}
+
+table th:last-child{
+  border-radius:0 10px 10px 0;
+}
