@@ -18,13 +18,13 @@
 	padding: 20px;
 }
 div#t2 {
-	width: 400px;
+	width: 700px;
 }
 .main-container .form-control:focus {
 	color: #495057;
 	background-color: #fff;
 	border-color: #0067f4;
-	border-shadow: 7px, 5px;
+	border-shadow: 20px, 20px;
 	border-width: 2px;
 	outline: 1px;
 	box-shadow: none;
