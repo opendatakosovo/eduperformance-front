@@ -68,7 +68,7 @@ body
   }
 
 .landing-font{
-   font-size: 90px !important;
+   font-size: 500% !important;
    font-weight: bold;
    text-shadow: 0 0 40px rgba(0,0,0, 0.6);
    margin-bottom: 18% !important; 
@@ -202,7 +202,9 @@ body
    display:none;
   }
   /*----- END MENU >771px --------*/
-  
+  landing-font{
+  font-size:190% !important;
+  }
 
   
 }
@@ -244,3 +246,11 @@ body
   }
   
 }
+@media only screen and (max-width: 421px) {
+
+  .landing-font
+  {
+    font-size:180% !important;
+  }
+}
+
