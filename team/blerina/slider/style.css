@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url(https://use.fontawesome.com/releases/v5.7.0/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+
+body {
+    background: #2a2a2a;
+    font-family: Raleway;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 40px;
+    color: #FFF;
+}
+#emoji-in-title::after {
+    content: '\1F60D';
+    font-size: 0.7em;
+}
+
+
+p {
+    color: #999;
+    text-align: center;
+    font-size: 15px;
+}
+a {
+    color: #ea5732;
+    text-decoration: none;
+    padding: 1px 2px 0px 2px;
+    border-bottom: 2px solid rgba(0, 0, 0, .0);
+    transition: all .1s ease;
+}
+p a:hover {
+     padding: 1px 2px 1px 2px;
+     border-bottom: 2px solid #555;
+ }
+
+
+#player {
+    width: 350px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    top: 80px;
+}
+
+i {
+    position: absolute;
+    margin-top: -10px;
+    color: #666;
+    font-size: 25px;
+}
+
+i.fa-volume-down {
+    margin-left: -20px;
+}
+
+i.fa-volume-up {
+    margin-right: -20px;
+    right: 0;
+}
+
+
+#volume {
+    position: absolute;
+    left: 24px;
+    margin: 0 auto;
+    height: 5px;
+    width: 300px;
+    background: #555;
+    border-radius: 15px;
+}
+.ui-slider-range-min {
+    height: 5px;
+    width: 300px;
+    position: absolute;
+    background: #ea5732;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.ui-slider-handle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -8px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#volume .ui-slider-handle {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#volume .ui-slider-handle::after {
+    size: 25px;
+    font-size: 25px;
+    position: absolute;
+    top: -5px;
+
+}
+
+#volume.v0 .ui-slider-handle::after {
+     content: '\1F634';
+ }
+#volume.v2 .ui-slider-handle::after {
+     content: '\1F614';
+ }
+#volume.v3 .ui-slider-handle::after {
+     content: '\1F60C';
+ }
+#volume.v4 .ui-slider-handle::after {
+     content: '\1F60F';
+ }
+#volume.v5 .ui-slider-handle::after {
+     content: '\1F60A';
+ }
+#volume.v6 .ui-slider-handle::after {
+     content: '\1F604';
+ }
+#volume.v7 .ui-slider-handle::after {
+     content: '\1F60D';
+ }
+
