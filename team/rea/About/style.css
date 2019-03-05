@@ -1,90 +1,92 @@
-.colorBlue
-  {
-    color:#0067f4;
-    font-weight: bold;
-  }
-  .bColorBlue
-  {
-    background-color:#0067f4; 
-    font-weight: bold;
-  }
+.colorBlue{
+  color:#0067f4;
+  font-weight: bold;
+}
+.bColorBlue{
+  background-color:#0067f4; 
+  font-weight: bold;
+}
   
-  .customFont
-  {
-    font-weight: 1000;
-    font-weight: bold;
-    font-size:  150%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 0%;
-  }
-.customFontAbout
-  {  
-    padding-bottom: 5%;
-    padding-top: 5%;
-    padding-left: 40px;
-    font-weight: 740;
-    font-size: 270%;
-  }
-
-
-.imgSch
-{
-
-   width: 610px;
-  height: 400px;
-
+.customFont{
+  font-weight: 1000;
+  font-weight: bold;
+  font-size:  150%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0%;
 }
 
-.imgSch2
-{
-    width: 60px;
+.customFontAbout{  
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 40px;
+  font-weight: 740;
+  font-size: 270%;
+}
+
+
+.imgSch{
+  width: 610px;
+  height: 400px;
+}
+
+.imgSch2{
+  
+  width: 60px;
   height: 60px;
 }
-
-.imgSch3
-{
-    width: 45px;
+.imgSch1{
+  background: url('teacher-about-blue.png');
+  background-size: 60px 60px;
+}
+.imgSch3{
+  width: 45px;
   height: 45px;
   padding: 4px;
+}
+
+.customFontCards{
+  font-weight: 740;
 
 }
- .customFontCards{
-   font-weight: 740;
 
-}
- .customFontCards2{
-   color:#0067f4;
-    font-weight: bold;
-
+.customFontCards2{
+  color:#0067f4;
+  font-weight: bold;
 }
 
 .box {
   width: 300px;
-  
   border: 0px solid white;
   padding: 10px;
   margin: 0px;
 }
 
-
-
-.box2 {
-
-   box-shadow: 0 0 11px rgba(33,33,33,.2); 
-  background-image:url('box-about.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-
+.boxShadow {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 
 
-/*  .hover1{
-  color:#0067f4;
-    font-weight: bold;
-  }
-*/
+
+#box-1:hover, #box-1.hovered {background-image: url('box-about.png');   background-size: contain;
+  background-repeat: no-repeat;}
+#box-2:hover, #box-2.hovered {background-image: url('box-book-about.png');  background-size: contain;
+  background-repeat: no-repeat; }
+#box-3:hover, #box-3.hovered {background-image: url('box-person-about.png');  background-size: contain;
+  background-repeat: no-repeat;}
+#box-4:hover, #box-4.hovered {background-image: url('box-hand-about.png');   background-size: contain;
+  background-repeat: no-repeat;}
+
+
+#img-2:hover, #img-2.hovered{ background:url('teacher-about.png');  background-repeat: no-repeat; background-color: #0067f4; background-position:center ; background-size: 60px 60px ;
+  z-index: 1;}
+#img-3:hover, #img-3.hovered{ background:url('book-about-white.png');  background-repeat: no-repeat; background-color: #0067f4; background-position:center ;background-size: 50px 50px ;
+  z-index: 1; }
+#img-4:hover, #img-4.hovered{ background:url('hand-about.png');  background-repeat: no-repeat; background-color: #0067f4;background-position:center ; background-size: 50px 50px ;
+  z-index: 1;}
+#img-5:hover, #img-5.hovered{ background:url('person-about.png');  background-repeat: no-repeat; background-color: #0067f4;background-position:center ; background-size: 40px 40px ;
+  z-index: 1;}
 
 
 
