@@ -1,317 +1,81 @@
+
 <!DOCTYPE html>
-<html >
+
+<html>
+
 <head>
-    <meta lang="en">
-    <title>Slider</title>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main-slider.js"></script>
+    <link href="style-slider.css" rel="stylesheet">
 
-    <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-
     <style>
-        .slidecontainer {
-            width: 100%;
-        }
 
-        .slider {
-            -webkit-appearance: none;
-            width: 60%;
-            height: 5px;
-            border-radius: 5px;
-            background: #d3d3d3;
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-        }
+        div {
 
-        .slider:hover {
-            opacity: 1;
-        }
+            margin: 20px;
 
-        .slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/bad-blue.png')no-repeat;
-            background-position: center;
-            cursor: pointer;
-            background-size:24px 24px;
         }
-
-        .slider::-moz-range-thumb {
-            width: 23px;
-            height: 24px;
-            border: 0;
-            background: #000 url('images/bad-blue.png');
-            cursor: pointer;
-        }
-
-        /*-----------------------------*/
-        .slide2 {
-            -webkit-appearance: none;
-            width: 20%;
-            height: 5px;
-            border-radius: 5px;
-            background: #d3d3d3;
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-        }
-
-        .slide2:hover {
-            opacity: 1;
-        }
-
-        .slide2::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/notgood-blue.png')no-repeat;
-            background-position: center;
-            background-size:24px 24px;
-            cursor: pointer;
-        }
-
-        .slide2::-moz-range-thumb {
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/notgood-blue.png')no-repeat;
-            background-position: center;
-            background-size:24px 24px;
-            cursor: pointer;
-        }
-        /*----------------------------------------*/
-        /*-----------------------------*/
-        .slide3 {
-            -webkit-appearance: none;
-            width: 20%;
-            height: 5px;
-            border-radius: 5px;
-            background: #d3d3d3;
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-        }
-
-        .slide3:hover {
-            opacity: 1;
-        }
-
-        .slide3::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/neutral-blue.png')no-repeat;
-            background-size:24px 24px;
-            background-position: center;
-            cursor: pointer;
-        }
-
-        .slide3::-moz-range-thumb {
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/neutral-blue.png')no-repeat;
-            background-size:24px 24px;
-            background-position: center;
-            cursor: pointer;
-        }
-        /*----------------------------------------*/
-        /*-----------------------------*/
-        .slide4 {
-            -webkit-appearance: none;
-            width: 20%;
-            height: 5px;
-            border-radius: 5px;
-            background: #d3d3d3;
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-        }
-
-        .slide4:hover {
-            opacity: 1;
-        }
-
-        .slide4::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/good-blue.png')no-repeat;
-            background-size:24px 24px;
-            background-position: center;
-            cursor: pointer;
-        }
-
-        .slide4::-moz-range-thumb {
-            width: 40px;
-            height: 40px;
-            border: 3px solid #0067f4;
-            border-radius: 50%;
-            background: #fff url('images/good-blue.png')no-repeat;
-            background-size:24px 24px;
-            background-position: center;
-            cursor: pointer;
-        }
-        /*----------------------------------------*/
 
     </style>
+
 </head>
+
 <body>
-
-
 <div class="container main-container ">
     <div class="row">
         <div class="col-sm-12">
             <div class="content2 mx-auto mt-5" id="t2">
 
-<div class="slidecontainer ml-5 mt-5" >
-    <div><i class="material-icons" style="color: #0067f4;">filter_1</i> &nbsp 	The syllabus was explained at the beginning of the course.  </div><br>
-    <div class="slidecontainer ml-5 mt-5" >
-        <div class="minus text-primary font-weight-bold mr-2 " style="font-size: 130%;display: inline-block;vertical-align: -4%;cursor:pointer;">-</div>
-        <input type="range" min="1" max="5" value="1" class="slider" id="myRange2" onchange="sliderchange();" >
-        <div class="plus text-primary font-weight-bold ml-2 mt-1" style="font-size: 130%;display: inline-block;vertical-align: -4%;cursor:pointer;" >+</div>
-    </div>
-                <div style="margin-top: 20px;"><i class="material-icons" style="color: #0067f4;">filter_2</i> &nbsp The overall atmosphere in class is positive and encouraging. </div><br>
                 <div class="slidecontainer ml-5 mt-5" >
-                    <div class="minus text-primary font-weight-bold mr-2 " style="font-size: 130%;display: inline-block;vertical-align: -4%;cursor:pointer;">-</div>
-                    <input type="range" min="1" max="5" value="1" class="slider" id="myRange1" onchange="sliderchange();" >
-                    <div class="plus text-primary font-weight-bold ml-2 mt-1" style="font-size: 130%;display: inline-block;vertical-align: -4%;cursor:pointer;" >+</div>
+                    <div><i class="material-icons" style="color: #0067f4;">filter_1</i> &nbsp 	The syllabus was explained at the beginning of the course.  </div><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 mr-0 pr-0 text-right mt-2  chrome-custom">
+            <span class="minus text-primary font-weight-bold mr-2 " >-</span>
+        </div>
+        <div class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-4 mr-0 ml-0 pr-0 pl-0 mt-0">
+            <input type="range" min="1" max="5" value="1" onchange="sliderchange();" id="myRange" />
+        </div>
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ml-0 pl-0 mt-2 chrome-custom">
+            <span class="plus text-primary font-weight-bold ml-2 "  >+</span>
+        </div>
+
+        <div style="margin-top: 20px;"><i class="material-icons" style="color: #0067f4;">filter_2</i> &nbsp The overall atmosphere in class is positive and encouraging. </div><br>
+        <div class="slidecontainer ml-5 mt-5" >
+            <form>
+                <div class="row" style="margin-top: -50px;">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary" style="width: 200px;">Decline</button>
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary" style="width: 200px; margin-left: -40px;">Submit</button>
+                    </div>
                 </div>
-
-
-    <div class="slidecontainer ml-5 mt-5" >
-    <form>
-        <div class="row">
-            <div class="col">
-                <button type="submit" class="btn btn-primary" style="width: 200px;">Decline</button>
-            </div>
-            <div class="col">
-                <button type="submit" class="btn btn-primary" style="width: 200px; margin-left: -100px;">Submit</button>
-            </div>
+            </form>
         </div>
-    </form>
+
+
     </div>
 </div>
-
-
-
-            </div>
-        </div>
-    </div>
-</div>
-</body>
-
 <script>
-    $(document).ready(function(){
-        $(".minus").click(function(){
-            var slidervalue = document.getElementById("myRange1").value;
-            var value = parseInt(slidervalue);
-            if(value!=1)
-            {
-
-                $("input[type=range]").val(value-1);
-                sliderchange();
-                var val = ($('input[type="range"]').val() - $('input[type="range"]').attr('min')) / ($('input[type="range"]').attr('max') - $('input[type="range"]').attr('min'));
-
-                $('input[type="range"]').css('background-image',
-                    '-webkit-gradient(linear, left top, right top, '
-                    + 'color-stop(' + val + ', #0067f4), '
-                    + 'color-stop(' + val + ', #C5C5C5)'
-                    + ')'
-                );
-            }
-
-        });
-        $(".plus").click(function(){
-            var slidervalue = document.getElementById("myRange1").value;
-            var value = parseInt(slidervalue);
-            if(value!=5)
-            {
-
-                $("input[type=range]").val(value+1);
-                sliderchange();
-                var val = ($('input[type="range"]').val() - $('input[type="range"]').attr('min')) / ($('input[type="range"]').attr('max') - $('input[type="range"]').attr('min'));
-
-                $('input[type="range"]').css('background-image',
-                    '-webkit-gradient(linear, left top, right top, '
-                    + 'color-stop(' + val + ', #0067f4), '
-                    + 'color-stop(' + val + ', #C5C5C5)'
-                    + ')'
-                );
-            }
-
-        });
-
-
-
-    });
-    function sliderchange() {
-        var a = document.getElementById("myRange1").value;
-        var variable = parseInt(a);
-
-
-        if(variable==1)
-        {
-            $("#myRange1").removeClass().addClass('slider');
-        }
-        else if(variable==2)
-        {
-            $("#myRange1").removeClass().addClass('slide2');
-        }
-        else if(variable==3)
-        {
-            $("#myRange1").removeClass().addClass('slide3');
-        }
-        else if(variable==4)
-        {
-            $("#myRange1").removeClass().addClass('slide4');
-        }
-
-    }
-
-    $('input[type="range"]').change(function () {
-        var val = ($(this).val() - $(this).attr('min')) / ($(this).attr('max') - $(this).attr('min'));
-
-        $(this).css('background-image',
-            '-webkit-gradient(linear, left top, right top, '
-            + 'color-stop(' + val + ', #0067f4), '
-            + 'color-stop(' + val + ', #C5C5C5)'
-            + ')'
-        );
-    });
 
 </script>
 
-
-
-
-
 </body>
+
 </html>
