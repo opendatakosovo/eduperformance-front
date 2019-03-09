@@ -1,25 +1,229 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="assets/css/main.css" >
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Eduperformanca</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
-    <script src="assets/js/popper.min.js" ></script>
-    <script src="assets/js/bootstrap.min.js" ></script>
-    <script src="assets/js/main.js" ></script>
-  </body>
+  <title>Eduperformanca</title>
+</head>
+
+<body>
+  <header class="header-v1">
+    <!--div for background img -->
+    <div class="menu img-responsive div-background-home">
+      <!--div for transparent navbar -->
+      <div class="navbar transparent navbar-inverse">
+        <div class="navbar-inner" style="width: 100%;">
+          <nav class="navbar navbar-expand-lg  navbar-light">
+
+            <button class="navbar-toggler" id="nav-toggle-button" type="button" data-toggle="collapse"
+              data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon " id="nav-toggle-button"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto ml-3">
+                <li class="nav-item active">
+                  <a class="nav-link linkactive-WhiteBlue text-primary font-weight-bold" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Statistics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Schools</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Fields</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkmenu-WhiteBlue  ml-lg-4 " href="#">About</a>
+                </li>
+
+                <!--Line between menu items and M icon -->
+                <li class="nav-item mt-2 mr-2 ml-2 login-line-WhiteBlue">
+                  <span class="font-weight-bold"> |</span>
+                </li>
+
+                <li class="nav-item ">
+                  <a href="#" class="tooltip-custom" data-toggle="tooltip" data-placement="right" title="Stories">
+                    <img src="assets/images/m-white.png" class="m-style mt-lg-2 mb-md-2 ml-lg-2 m-stories">
+                  </a>
+
+                  <!-- in small view change M icon with stories link -->
+                  <a class="nav-link text-white linkmenu-WhiteBlue stories-title">Stories</a>
+                </li>
+
+              </ul>
+
+              <ul class="navbar-nav ml-3">
+                <!--Dropdown for languages-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
+
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item font-weight-bold" href="#">Sq</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item font-weight-bold" href="#">Sr</a>
+                  </div>
+                </li>
+
+                <!--Line between language and login -->
+                <li class="nav-item mt-2 mr-2 ml-2 login-line-WhiteBlue">
+                  <span class="font-weight-bold "> | </span>
+                </li>
+
+                <li class="nav-item">
+                  <button type="button"
+                    class="btn btn-primary text-white font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button"
+                    style="font-size: 15px;padding: 5px 16px;">Register</button>
+
+                  <a href="#" class="nav-link linkmenu-WhiteBlue register-link">Register</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-white img-responsive" href="#"> <img
+                      src="assets/images/loginWhite.png"> Log In</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--text-->
+      <div class="container ml-0 container-home">
+        <div class="row mt-custom-home ml-2 ml-md-0">
+          <div class="col-11 col-sm-11 col-md-12 col-lg-4 ml-sm-4 mb-md-3 text-white font-weight-bold">
+            <h1 class="customFont">Enhance</h1>
+            <h1 class="customFont">Education</h1>
+          </div>
+        </div>
+        <hr class="lineWhite">
+        <div class="row  mt-2 ml-2 ml-md-0">
+          <div class="col-12 col-sm-12 col-md-7 col-lg-4 ml-sm-4 mt-sm-4 mb-1 text-white">
+            <p>By using <span class="font-weight-bold"><ins>Enhance Education</ins></span> you can rate your
+              teachers, list the best teachers & schools. This way you can give your contribution towards
+              an improved education system in your country.</p>
+          </div>
+        </div>
+        <div class="row  mt-3 ml-2 ml-md-0">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 ml-sm-4 ml-md-4 mb-5">
+            <button type="button" class="btn btn-light text-primary font-weight-bold "
+              style="font-size: 15px;padding: 5px 16px;">Evaluate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Search for schools and subject-->
+  <div class="container">
+    <div class="text-center colorBlue customFont">
+      <p>Benefits</p>
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-sm-6 hovered-box mt-2">
+        <div class="media ">
+          <img  class="mr-3  box-image" src="assets/images/teacher-about-blue.png"
+            alt="Generic p">
+          <div class="media-body">
+            <h6 class="color customFontCards">Teacher Evaluation</h6>
+            Cras sit amet nibh libero, in gravida nulla. Cras sit amet nibh libero, in gravida nulla.
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 hovered-box mt-2">
+        <div  class="media ">
+          <img  class="mr-3 box-image " src="assets/images/book-about.png"
+            alt="Generic placeholder image">
+          <div class="media-body ">
+            <h6 class="color customFontCards">Education Evaluation</h6>
+            Cras sit amet nibh libero, in gravida nulla.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="w-100"></div>
+
+      <div class="col-12 col-sm-6 hovered-box mt-2">
+        <div class="media">
+          <img class="box-image  mr-3"
+            src="assets/images/person-about-blue.png" alt="Generic placeholder image">
+
+          <div class="media-body">
+            <h6 class="color customFontCards">Reporting irregularities</h6>
+            Cras sit amet nibh libero, in gravida nulla.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-6 hovered-box mt-2">
+        <div class="media">
+          <img  class="mr-3 box-image" src="assets/images/hand-about-blue.png"
+            alt="Generic placeholder image">
+          <div class="media-body">
+            <h6 class="color customFontCards">Asking/suggesting</h6>
+            Cras sit amet nibh libero, in gravida nulla.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row justify-content-center mb-3 mt-5 no-gutters align-self-center">
+      <div class="col-6 col-sm-6">
+          <img src="assets/images/class.png" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-6">
+          <div class="media-body text-white bColorBlue align-self-center mt-4 py-3">
+              <h1 class=" customFontAbout">About this <br> Project</h1>
+              <p style="padding-left: 40px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                sed do eiusmod tempor.quis nostrud exercitation.
+                sed do eiusmod tempor.</p>
+            </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <!--End Search for schools and subject-->
+  <!--Footer start-->
+  <div class="container-fluid footer-img ml-0 mt-4">
+    <div class="row bg-primary">
+      <div class="col-lg-3 offset-lg-1 col-sm-9 offset-sm-3 col-md-5 offset-md-3 mb-5">
+        <p class="text-white mt-5">Funded By</p>
+        <img src="assets/images/be.png" style="width:20%;height: auto;">
+        <img src="assets/images/tech.png" style="width:29%;height: auto;">
+      </div>
+      <div class="col-lg-3 offset-lg-1 col-sm-10 mb-5 date-custom">
+        <p class="text-white ml-lg-5 mt-5">January 2019</p>
+      </div>
+      <div class="col-lg-3 offset-lg-1 col-sm-10 offset-sm-3 mb-5 ">
+        <p class="text-white mt-5 text-lg-center ">Implemented by</p>
+        <img src="assets/images/opendata.png" class="ml-lg-3 " style="width:20%;height: auto;">
+        <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4" style="width:29%;height: auto;">
+      </div>
+    </div>
+  </div>
+  <!--Footer end-->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
