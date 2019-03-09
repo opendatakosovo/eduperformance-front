@@ -14,12 +14,16 @@
 <script>
 $(document).ready(function(){
    $(".shade").mouseover(function(){
-    $(this).addClass("box2");
-     $(this).find(".color").addClass("customFontCards2");
+    $(this).addClass("boxShadow ");
+    $(this).addClass("hovered");
+    $(this).find(".imgSch2").addClass("hovered");
+    $(this).find(".color").addClass("customFontCards2");
   });
     $(".shade").mouseout(function(){
-    $(this).removeClass("box2");
-     $(this).find(".color").removeClass("customFontCards2");
+    $(this).removeClass("boxShadow ");
+    $(this).removeClass("hovered");
+    $(this).find(".imgSch2").removeClass("hovered");
+    $(this).find(".color").removeClass("customFontCards2");
  })
 });
 </script>
@@ -35,8 +39,8 @@ $(document).ready(function(){
       <div class="row justify-content-center">
                           
         <div class=" col-lg-3 col-md-4"  >
-             <div class="shade media box mb-3">
-                 <img class="mr-3 rounded-circle imgSch2 bColorBlue shadow p-1 mb-5" src="teacher-about.png" alt="Generic placeholder image">
+             <div id="box-1" class="shade media box mb-3">
+                 <img id="img-2" class="mr-3 rounded-circle imgSch2 shadow p-1 mb-5" src="teacher-about-blue.png" alt="Generic p">
                  <div class="media-body ">
                       <h6 class="color customFontCards">Teacher Evaluation</h6>               
                       Cras sit amet nibh libero, in gravida nulla.  Cras sit amet nibh libero, in gravida nulla.
@@ -47,8 +51,8 @@ $(document).ready(function(){
 
 
             <div class=" col-lg-3 col-md-3 ml-lg-5 ml-md-5 ">
-              <div  class="shade media box mb-3">
-                 <img class="mr-3 rounded-circle imgSch2 shadow p-2 mb-5  bg-white " src="book-about.png" alt="Generic placeholder image">
+              <div id="box-2" class="shade media box mb-3">
+                 <img id="img-3"  class="mr-3 rounded-circle imgSch2 shadow p-2 mb-5 " src="book-about.png" alt="Generic placeholder image">
                  <div class="media-body ">
                      <h6 class="color customFontCards">Education Evaluation</h6>                
                       Cras sit amet nibh libero, in gravida nulla.
@@ -60,10 +64,9 @@ $(document).ready(function(){
              <div class="w-100"></div>
 
              <div class="col-lg-3 col-md-4 ">
-              <div class="shade media box ">
-                  <div class="mr-3 rounded-circle shadow p-2 mb-5  bg-white">
-                  <img class=" imgSch3 " src="person-about.png" alt="Generic placeholder image">
-                  </div>
+              <div id="box-3" class="shade media box ">
+                  <img id="img-5" class=" imgSch2 shade2  mr-3 rounded-circle shadow p-2 mb-5 " src="person-about-blue.png" alt="Generic placeholder image">
+                  
                   <div class="media-body">
                     <h6 class="color customFontCards">Reporting irregularities</h6>               
                     Cras sit amet nibh libero, in gravida nulla.
@@ -73,8 +76,8 @@ $(document).ready(function(){
 
 
            <div class="col-lg-3 col-md-3 ml-lg-5 ml-md-5">
-               <div class="shade media box">
-                 <img class="mr-3 rounded-circle imgSch2  shadow p-2 mb-5  bg-white" src="hand-about.png" alt="Generic placeholder image">
+               <div id="box-4" class="shade media box">
+                 <img id="img-4" class="mr-3 rounded-circle imgSch2 shadow p-2 mb-5" src="hand-about-blue.png" alt="Generic placeholder image">
                  <div class="media-body">
                    <h6 class="color customFontCards">Asking/suggesting</h6>               
                     Cras sit amet nibh libero, in gravida nulla.

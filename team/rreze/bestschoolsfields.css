@@ -1,0 +1,83 @@
+body
+  {
+    font-family: 'Poppins', sans-serif;
+  }
+.badge-custom{
+	border-radius: 50%;
+	background-color: #0067f4;
+}
+
+.BestFieldsBackground
+{
+	background-image: url(best-teacher.png);
+	background-repeat:no-repeat; 
+    background-size:cover;
+}
+.customFont
+{
+	text-align: left;
+	/*font-weight: bold;*/
+	position: absolute;
+    top: 8px;
+    left:16px;
+    font-size: 40px;
+    color: rgba(250,250,250,0.5);
+  }
+.v2{
+  text-align: left;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 40px;
+
+}
+ .v1{
+  border: 0;
+  border-right: 1px solid rgba(0,0,0,0.1);
+  height: 250px;
+}
+@media only screen and (min-width:1603px)
+{
+	.mt-BestSchool{
+	margin-top: 50% !important;
+   }
+}
+@media only screen and (max-width: 1086px) {
+ .mt-BestSchool{
+	margin-top: 140% !important;
+   }
+}
+@media only screen and (min-width:1998px)
+{
+	.mt-BestSchool{
+	margin-top: 40% !important;
+   }
+}
+@media only screen and (max-width: 991.3px) {
+  .BestSchoolBackground
+   {
+    display: none;
+   }
+}
+
+
+#example tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+#example .selected-row td{
+	color:#0067f4 !important;
+	border-bottom:1px solid #0067f4 !important;
+	border-top:1px solid #0067f4 !important;
+	vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#example tbody tr{
+	color: #999798;
+}
+
+#example thead tr th{
+	color: rgb(150,150,150);
+}

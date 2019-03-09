@@ -1,0 +1,16 @@
+/*-- index2 --*/   
+   .forum:hover {
+            background-color: #0067f4 !important;
+            color: white;
+        }
+
+        .custom-box-eye {
+            border-radius: 15%;
+            border-width: 2px !important;
+        }
+
+       .hover-effect:hover{
+           background-color: #0067f4 !important;
+           color:white !important;
+       }
+ /*-- index2 --*/   

@@ -1,0 +1,36 @@
+
+
+/*Style of the second content*/
+.component {
+	color: #999798 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.content2 {
+	color: #999798;
+	font-family: 'Poppins',sans-serif;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	padding: 20px;
+}
+div#t2, div#t1 {
+	width: 700px;
+}
+.main-container .form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #0067f4;
+	border-shadow: 20px, 20px;
+	border-width: 2px;
+	outline: 1px;
+	box-shadow: none;
+}
+
+
+
+
+
