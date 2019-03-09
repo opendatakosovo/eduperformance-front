@@ -731,4 +731,10 @@ div#t2 {
 #example thead tr th{
 	color: rgb(150,150,150);
 }
+.BestSchoolsBackground
+{
+	background-image: url(/assets/images/bestschool.png);
+	background-repeat:no-repeat; 
+    background-size:cover;
+}
 /* end top fields*/
