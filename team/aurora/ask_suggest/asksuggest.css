@@ -1,0 +1,32 @@
+#kolona{
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px 5px #80808033;
+	margin-top: 50px;
+}
+
+#ask{
+	font-family: 'poppins',  sans-serif;
+    	font-size: 46px;
+    	font-weight: bolder;
+    	color: #0067f4;
+    	margin-left: 20px;
+    	margin-top: 40px;
+}
+
+.teksti {
+	    font-family: 'Poppins',sans-serif;
+    	font-size: 14px;
+    	color: #a4a4a4;
+    	margin-left: 20px;
+    	margin-top: 20px;
+    }
+.btn{
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	background-color:#0067f4;
+	color: white; 
+	width: 230px;
+	font-family: 'poppins', sans-serif;
+	padding: 10px
+}
