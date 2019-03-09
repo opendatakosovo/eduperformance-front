@@ -486,3 +486,81 @@ div#t2 {
 }
 
 /* end about page*/
+/* testimonials* (ev) */
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+  
+  .customFont
+  {
+    /*font-weight: 1000;*/
+    font-weight: bold;
+    font-size:  130%;
+    
+  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.box {
+  width: 270px;
+  border: 0px solid white;
+  padding: 20px;
+  margin: 0px;
+}
+
+.imgS
+{
+  width: 60%;
+  height: 5%; 
+  padding-top:15%;
+}
+
+
+
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-image:url('box-about.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+/*end tesimonials
+
+/*login form start*/
+.main-container{
+	background-color: #f1f0f0f3;
+}
+.main-container h1{
+  color: #0067f4;
+  font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 280%;
+}
+.main-container p{
+  color: #999798;
+  font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 120%;
+}
+.form-group label{
+  font-weight:bold;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 15px;
+  margin-bottom: 38px;
+  margin-top: 18px;
+
+ }
+ .main-container hr{
+   text-align: center;
+   width: 81%;
+   margin-bottom: 35px;
+ }
+
+/*end login form*/
