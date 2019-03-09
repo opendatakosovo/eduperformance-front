@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url(https://use.fontawesome.com/releases/v5.7.0/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+body {
+  background: #f3f4f6;
+  font-family: Raleway;
+}
+h1 {
+  text-align: center;
+  font-size: 34px;
+  padding-top: 40px;
+  color: #fff;
+}
+h1 #emoji-in-title::after {
+  content: '\1F60D';
+  font-size: 0.7em;
+}
+p {
+  color: #999;
+  text-align: center;
+  font-size: 15px;
+}
+p a {
+  color: #ea5732;
+  text-decoration: none;
+  padding: 1px 2px 0px 2px;
+  border-bottom: 2px solid rgba(0, 0, 0, .0);
+  transition: all 0.1s ease;
+}
+p a:hover {
+  padding: 1px 2px 1px 2px;
+  border-bottom: 2px solid #555;
+}
+body {
+  background: #f3f4f6;
+  /*font-family: Raleway;*/
+}
+h1 {
+  text-align: center;
+  font-size: 34px;
+  padding-top: 40px;
+  color: #fff;
+}
+h1 #emoji-in-title::after {
+  content: '\1F60D';
+  font-size: 0.7em;
+}
+p {
+  color: #999;
+  text-align: center;
+  font-size: 15px;
+}
+p a {
+  color: #ea5732;
+  text-decoration: none;
+  padding: 1px 2px 0px 2px;
+  border-bottom: 2px solid rgba(0, 0, 0, .0);
+  transition: all 0.1s ease;
+}
+p a:hover {
+  padding: 1px 2px 1px 2px;
+  border-bottom: 2px solid #555;
+}
+
+#slider-voting {
+  width: 350px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
+}
+#slider-voting i {
+  position: absolute;
+  margin: -6.5px ;
+  color: #666;
+  font-size: 17px;
+
+}
+.fa-minus {
+  color: dodgerblue;
+  right: 0;
+  left: -20px;
+  padding-top: -200px;
+  font-max-size: x-small ;
+}
+.fa-plus {
+  right: 0;
+  right: -20px;
+  font-size: 0.73em;
+}
+#volume {
+  position: absolute;
+  left: 24px;
+  margin: 0 auto;
+  height: 5px;
+  width: 300px;
+  background: #c1bdc0;
+  border-radius: 15px;
+}
+#volume .ui-slider-range-min {
+  height: 5px;
+  width: 300px;
+  position: absolute;
+  background: #0067f4;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: darkgray;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}
+#volume .ui-slider-handle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+#volume .ui-slider-handle::after {
+  font-size: 25px;
+  position: absolute;
+  top: -5px;
+  left: -12.5px;
+}
+#volume.v0 .ui-slider-handle::after {
+  /*content: '\1F634';*/
+  /*content: url(blue/bad-blue.png);*/
+  width: 50px;
+  height: 50px;
+  background-size: 30px;
+  background-image: url(blue/bad-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
+}
+
+
+#volume.v1 .ui-slider-handle::after {
+  /*content: '\1F62B';*/
+  width: 70px;
+  height: 70px;
+  background-size: 30px;
+  background-image: url(blue/notgood-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
+}
+#volume.v2 .ui-slider-handle::after {
+  width: 70px;
+  height: 70px;
+  background-size: 30px;
+  background-image: url(blue/neutral-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
+}
+#volume.v3 .ui-slider-handle::after {
+  content: '\1F60C';
+  width: 70px;
+  height: 70px;
+  background-size: 30px;
+  background-image: url(blue/good-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
+}
+#volume.v4 .ui-slider-handle::after {
+ /* content: '\1F60F';*/
+  width: 70px;
+  height: 70px;
+  background-size: 30px;
+  background-image: url(blue/neutral-blue.png);
+  /*background-size: 50px 50px;*/
+  display: inline-block;
+  /* width: 50px; */
+  background-repeat: no-repeat;
+  /* height: 50px; */
+  content: "";
+
+}
+
+.numberCircle{
+  width: 34px;
+  height: 34px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-family: Poppins-Bold;
+  font-size: 22px;
+  font-variant-position: inherit;
+  text-align: center;
+  color: #0067f4;
+  border: 1px solid #0067f4;
+}

@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Mar-2019, 11:24:26
+    Author     : erona
+*/
+body
+  {
+    font-family: 'Poppins', sans-serif;
+  }
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+  
+  .customFont
+  {
+    font-weight: 1000;
+    font-weight: bold;
+    font-size:  130%;
+    padding-left: 500%;
+  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.container {
+  padding: 2px 16px;
+}
+
+
+.box {
+  width: 270px;
+  border: 0px solid white;
+  padding: 20px;
+  margin: 0px;
+}
+
+.imgS
+{
+  width: 60%;
+  height: 5%; 
+  padding-top:15%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box:hover {
+
+  
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+ 
+     background-image:url('box-about.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+
+
+
+
+
+
+}
+

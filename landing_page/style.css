@@ -1,0 +1,256 @@
+/*Set defaul font Poppins*/
+body
+  {
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+/*margin top custom for Text Part Header*/
+.mt-custom-Landing
+  {
+    margin-top: 20%;
+
+  }
+  
+
+
+/*set image in header like background image*/
+.div-backgroundLanding
+  {
+    background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landingKamenica.png); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+    height:100vh;
+  }
+ .div-backgroundLandingKlina
+  {
+    background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landingKline.png); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+    height:100vh;
+  }
+   .div-backgroundLandingViti
+  {
+    background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landingVitia.png); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+    height:100vh;
+  }
+
+#city{
+  background-color: rgba(255,255,255,0);
+  border:3px solid white;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif !important;
+  padding: 10px 15px;
+  font-size: 14px;
+
+}
+#city option{
+  color:black;
+}
+#city option:hover{
+  color:white;
+}
+.tooltip-inner {
+  background-color: #000 !important;
+  color: #fff;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 8px 8px;
+}
+
+.colorGrey-Landing
+  {
+    color:#333 !important;
+  }
+
+.landing-font{
+   font-size: 500% !important;
+   font-weight: bold;
+   text-shadow: 0 0 40px rgba(0,0,0, 0.6);
+   margin-bottom: 18% !important; 
+
+}
+
+
+/*----------------- MENU --------------------*/
+.linkmenuSchool-gray{
+  color: #333 !important;
+}
+
+
+ 
+ /*transaprent navbar*/
+.navbar.transparent.navbar-inverse .navbar-inner 
+  {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  }
+
+
+
+/*effects for active link*/
+.linkactiveSchool-gray::after
+  {
+    content: '';
+    display:block;
+    width: 100%;
+    height: 4px;
+    background-color: #0067f4;
+    margin-top: 5px;
+  }
+
+
+/*effects for other menu items*/
+.linkmenuSchool-gray::after
+  {
+    content: '';
+    display:block;
+    width: 0;
+    height: 4px;
+    background-color: #0067f4;
+    transition: width .3s;
+    margin-top: 5px;
+  }
+
+/*in hover set color of anchor to blue*/  
+.linkmenuSchool-gray:hover
+  {
+    color: #0067f4 !important;
+  }
+
+/*show line with transition on bottom of link(hover action)*/
+.linkmenuSchool-gray:hover::after
+  {
+    width:100%;
+    transition: width .3s;
+  }
+
+ /*----------------- END MENU --------------------*/
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+
+
+
+
+.m-style
+{
+  width: 30px;
+  height: auto;
+}
+
+.register-span{
+    display: none;
+  }
+.story-title{
+  color: #333 !important;
+  display: none;
+  cursor: pointer;
+}
+/*change some things to make responsive header*/
+@media only screen and (max-width: 1199px) 
+{
+  /* --- MENU LINE >1199px  ----*/
+ .login-lineSchool
+   {
+     padding-right: 4px;
+   } 
+  /* ---END MENU LINE >1199px----*/
+
+ 
+}
+
+
+
+
+
+/*changes in small size - medium*/
+@media only screen and (max-width: 771px) {
+
+  
+  /*----- MENU SIZE >771px  -------*/
+  .linkmenuSchool-gray:hover::after
+   {
+     width: 0%;
+     background-color: #ccc;
+     transition: width .3s;
+   }
+
+   
+  .linkactiveSchool-gray::after
+   {
+     width: 0%;
+   }
+
+   .login-lineSchool
+   {
+     display: none;
+   }
+   .lineWhite
+  {
+   display:none;
+  }
+  /*----- END MENU >771px --------*/
+  landing-font{
+  font-size:190% !important;
+  }
+
+  
+}
+@media only screen and (max-width: 992px) {
+
+  
+  /*----- MENU SIZE >771px  -------*/
+  .linkmenuSchool-gray:hover::after
+   {
+     width: 0%;
+     background-color: #ccc;
+     transition: width .3s;
+   }
+
+   
+  .linkactiveSchool-gray::after
+   {
+     width: 0%;
+   }
+
+   .login-lineSchool
+   {
+     display: none;
+   }
+
+  .register-button{
+    display: none;
+  }
+
+  .register-span{
+    display: block;
+  }
+  .m-story{
+    display: none;
+  }
+  .story-title{
+
+    display: block;
+  }
+  
+}
+@media only screen and (max-width: 421px) {
+
+  .landing-font
+  {
+    font-size:180% !important;
+  }
+}
+

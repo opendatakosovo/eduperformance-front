@@ -1,0 +1,93 @@
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+  .bColorBlue
+  {
+    background-color:#0067f4; 
+    font-weight: bold;
+  }
+  
+  .customFont
+  {
+    font-weight: 1000;
+    font-weight: bold;
+    font-size:  150%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+  }
+.customFontAbout
+  {  
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 40px;
+    font-weight: 740;
+    font-size: 270%;
+  }
+
+
+.imgSch
+{
+
+   width: 610px;
+  height: 400px;
+
+}
+
+.imgSch2
+{
+    width: 60px;
+  height: 60px;
+}
+
+.imgSch3
+{
+    width: 45px;
+  height: 45px;
+  padding: 4px;
+
+}
+ .customFontCards{
+   font-weight: 740;
+
+}
+ .customFontCards2{
+   color:#0067f4;
+    font-weight: bold;
+
+}
+
+.box {
+  width: 300px;
+  
+  border: 0px solid white;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+
+.box2 {
+
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-image:url('box-about.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+
+/*  .hover1{
+  color:#0067f4;
+    font-weight: bold;
+  }
+*/
+
+
+
+
+  
+
