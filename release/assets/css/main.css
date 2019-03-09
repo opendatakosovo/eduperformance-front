@@ -12,6 +12,10 @@ body {
   background-size: cover;
   height: 100%;
 }
+.div-background-school {
+  background-image: url(/assets/images/school.png);
+
+}
 
 .lineWhite {
   width: 7%;
@@ -564,3 +568,92 @@ div#t2 {
  }
 
 /*end login form*/
+
+/*best schools start (rs)*/
+.badge-custom{
+	border-radius: 50%;
+	background-color: #0067f4;
+}
+
+.BestSchoolBackground
+{
+	background-image: url(assets/images/bestschool.png);
+	background-repeat:no-repeat; 
+    background-size:cover;
+}
+.customFont
+{
+	text-align: left;
+	/*font-weight: bold;*/
+	position: absolute;
+    top: 8px;
+    left:16px;
+    font-size: 40px;
+    color: white;
+
+}
+@media only screen and (min-width:1603px)
+{
+	.mt-BestSchool{
+	margin-top: 50% !important;
+   }
+}
+@media only screen and (max-width: 1086px) {
+ .mt-BestSchool{
+	margin-top: 140% !important;
+   }
+}
+@media only screen and (min-width:1998px)
+{
+	.mt-BestSchool{
+	margin-top: 40% !important;
+   }
+}
+@media only screen and (max-width: 991.3px) {
+  .BestSchoolBackground
+   {
+    display: none;
+   }
+}
+
+
+#example tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+#example .selected-row td{
+	color:#0067f4 !important;
+	border-bottom:1px solid #0067f4 !important;
+	border-top:1px solid #0067f4 !important;
+	vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#example tbody tr{
+	color: #999798;
+}
+
+#example thead tr th{
+	color: rgb(150,150,150);
+}
+/*end best schools*/
+/*all fields start*/
+.forum:hover {
+  background-color: #0067f4 !important;
+  color: white;
+}
+
+.custom-box-eye {
+  border-radius: 15%;
+  border-width: 2px !important;
+}
+
+.hover-effect:hover{
+ background-color: #0067f4 !important;
+ color:white !important;
+}
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+/*end all fields*/
