@@ -1,0 +1,393 @@
+/*Main Header white (ba)*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*------- Home header f5f5f5 -----------*/
+
+.div-background-home {
+  background-image: url(/assets/images/home-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.lineWhite {
+  width: 7%;
+  margin-left: 4%;
+  background-color: #fff;
+  height: 3px;
+}
+
+.mt-custom-home {
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 992px) {
+  .lineWhite {
+    display: none;
+  }
+  .mt-custom-home {
+    margin-top: 19%;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .div-background-home {
+    height: auto;
+  }
+}
+
+/*---------END HOME header ------------*/
+
+/*----------- Profile header ----------------*/
+
+.div-background-profile {
+  background-color: #f5f5f5;
+}
+
+.heading-custom {
+  font-size: 350%;
+}
+
+.mt-custom-profile {
+  margin-top: 10% !important;
+}
+
+.emoji-header {
+  width: 60%;
+  height: auto;
+}
+
+.component-emoji {
+  width: 85%;
+  height: auto;
+}
+
+.border-right-emoji {
+  border-right: 1.5px solid #a7a4a4;
+}
+
+.component-text {
+  font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .heading-custom {
+    font-size: 10vw;
+  }
+  .emoji-header {
+    width: 50%;
+    height: auto;
+  }
+  .mt-custom-profile {
+    margin-top: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .component-emoji {
+    width: 50% !important;
+    height: auto;
+  }
+  .component-text {
+    font-size: 1.8vw;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .emoji-header {
+    width: 100%;
+    height: auto;
+  }
+  .component-emoji {
+    width: 140% !important;
+    height: auto;
+  }
+}
+
+/*----------- END Profile header ----------------*/
+
+/*--------------------------- WHITE-BLUE NAVBAR STYLE ----------------------------*/
+
+.header-background {
+  background-color: rgb(190, 190, 190);
+}
+
+#nav-toggle-button {
+  background-color: white;
+}
+
+/*----------------- MENU Links--------------------*/
+
+/*transaprent navbar*/
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.linkactive-WhiteBlue {
+  color: #0067f4;
+}
+
+.linkmenu-WhiteBlue {
+  color: white !important;
+}
+
+/*effects for active link*/
+
+.linkactive-WhiteBlue::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #0067f4;
+  margin-top: 5px;
+}
+
+/*effects for other menu items*/
+
+.linkmenu-WhiteBlue::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: #0067f4;
+  transition: width .3s;
+  margin-top: 5px;
+}
+
+/*in hover set color of anchor to blue*/
+
+.linkmenu-WhiteBlue:hover {
+  color: #0067f4 !important;
+}
+
+/*show line with transition on bottom of link(hover action)*/
+
+.linkmenu-WhiteBlue:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+/*----------------- END MENU Links--------------------*/
+
+/* M icon */
+
+.m-style {
+  width: 30px;
+  height: auto;
+}
+
+/*Instead of Register button show register link*/
+
+.register-link {
+  display: none;
+}
+
+.login-line-WhiteBlue {
+  color: white;
+}
+
+/*Instead of M logo >993px show story like nav-link*/
+
+.stories-title {
+  display: none;
+}
+
+/* --------------- Tooltip white ----------------------*/
+
+.tooltip-inner {
+  background-color: #fff !important;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 8px;
+}
+
+/* ----------- END Tooltip ----------------------*/
+
+/*change some things to make responsive header*/
+
+@media only screen and (max-width: 1199px) {
+  /* --- MENU LINES (between login and language, & between menu items and M icon) >1199px  ----*/
+  .login-line-WhiteBlue {
+    padding-right: 4px;
+  }
+}
+
+/*changes in small size - medium*/
+
+@media only screen and (max-width: 771px) {
+  /*----- MENU SIZE >771px  -------*/
+  .linkmenu-WhiteBlue:hover::after {
+    width: 0%;
+    background-color: #ccc;
+    transition: width .3s;
+  }
+  .linkactive-WhiteBlue::after {
+    width: 0%;
+  }
+  .login-line-WhiteBlue {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /*----- MENU SIZE >771px  -------*/
+  .linkmenu-WhiteBlue:hover::after {
+    width: 0%;
+    background-color: #ccc;
+    transition: width .3s;
+  }
+  .linkactive-WhiteBlue::after {
+    width: 0%;
+  }
+  .login-line-WhiteBlue {
+    display: none;
+  }
+  .register-button {
+    display: none;
+  }
+  .register-link {
+    display: block;
+  }
+  .m-stories {
+    display: none;
+  }
+  .stories-title {
+    display: block;
+    cursor: pointer;
+  }
+}
+.header-v1{
+  height:700px;
+}
+/*-------------------------- WHITE-BLUE NAVBAR STYLE END -----------------------------------*/
+
+/* end Main header*/
+/* Footer Start* (rk)*/
+.footer-img {
+  background-image: url(/assets/images/school.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.customFontSchool {
+  font-weight: 1000;
+  font-size: 320%;
+}
+
+.mtcustom-footer {
+  margin-top: 10%;
+}
+
+.ImgArrow-custom {
+  max-width: 24%;
+  height: auto;
+}
+
+.readMore-Part {
+  clear: both;
+  margin-top: 26%;
+}
+
+@media only screen and (max-width:1198px) {
+  .ImgArrow-custom {
+    max-width: 30%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:991.5px) {
+  .ImgArrow-custom {
+    max-width: 80%;
+    height: auto;
+    margin-top: 16% !important;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .ImgArrow-custom {
+    max-width: 90%;
+    height: auto;
+    margin-top: 15% !important;
+  }
+}
+
+@media only screen and (max-width:767.5px) {
+  .ImgArrow-custom {
+    max-width: 50%;
+    height: auto;
+    margin-top: 5% !important;
+  }
+  .mtcustom-footer {
+    margin-top: 6%;
+  }
+  .readMore-Part {
+    margin-top: 28%;
+    font-size: 150%;
+  }
+  .customFontSchool {
+    font-weight: 1000;
+    font-size: 390%;
+  }
+  .date-custom {
+    display: none;
+  }
+}
+/* Footer End* (rk)*/
+/*search for schools and subject (eh)*/
+/*Style of three first paragraphs*/
+#paragraph1{
+
+	color: #0067f4 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#paragraph2, #paragraph3{
+
+	color:#999798 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 15px;
+}
+
+/*Style of the second content*/
+.component {
+	color: #999798 ;
+	font-family: 'Poppins',sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.content2 {
+	color: #999798;
+	font-family: 'Poppins',sans-serif;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	padding: 20px;
+}
+div#t2 {
+	width: 400px;
+}
+.main-container .form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #0067f4;
+	border-width: 2px;
+	outline: 1px;
+	box-shadow: none;
+}
+
+/*end search for schools and subject*/
+
