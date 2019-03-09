@@ -486,3 +486,46 @@ div#t2 {
 }
 
 /* end about page*/
+/* testimonials* (ev) */
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+  
+  .customFont
+  {
+    /*font-weight: 1000;*/
+    font-weight: bold;
+    font-size:  130%;
+    
+  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.box {
+  width: 270px;
+  border: 0px solid white;
+  padding: 20px;
+  margin: 0px;
+}
+
+.imgS
+{
+  width: 60%;
+  height: 5%; 
+  padding-top:15%;
+}
+
+
+
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-image:url('box-about.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+/*end tesimonials
