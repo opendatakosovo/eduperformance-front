@@ -1159,4 +1159,45 @@ div#t2 {
                                   supported by Chrome and Opera */
 }
 
-/*edn slider task*/
+/*end slider task*/
+
+/*start subject page*/
+.colorBlue
+  {
+    color:#0067f4;
+    font-weight: bold;
+  }
+  
+  .customFont
+  {
+    font-weight: 1000;
+    font-weight: bold;
+    font-size:  130%;
+    padding-right: 0%;
+  }
+ 
+  .table-emoji
+  {  
+      width: 40px;
+      height: 40px;
+      
+  }
+  
+table th:first-child{
+  border-radius:10px 0 0 10px;
+  padding-left:0%;
+}
+
+table th:last-child{
+  border-radius:0 10px 10px 0;
+}
+
+/*end subject page*/
+
+/* typography*/
+.subtitle{
+  color:#0067f4;
+  font-size:30px;
+  font-weight:bold;
+}
+/*endtypography*/
