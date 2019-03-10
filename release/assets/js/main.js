@@ -12,6 +12,25 @@ $(document).ready(function () {
          $(this).find(".imgSch2").removeClass("hovered");
          $(this).find(".color").removeClass("customFontCards2");
      })*/
+     $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+       });
+     
+     $('.collapse').on('shown.bs.collapse', function() {
+       $('.container-home').hide();
+         });
+
+     $('.collapse').on('hidden.bs.collapse', function() {
+       $('.container-home').show();
+       });
+     
+     $('.collapse').on('shown.bs.collapse', function() {
+       $('.container-profile').hide();
+         });
+
+     $('.collapse').on('hidden.bs.collapse', function() {
+       $('.container-profile').show();
+       });
     $(".ask-input").focus(function () {
         var editid = $(this).attr('id');
         var formclass = "ask-input-focus-" + editid;

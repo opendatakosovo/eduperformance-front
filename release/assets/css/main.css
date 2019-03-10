@@ -1202,3 +1202,13 @@ table th:last-child{
   font-weight:bold;
 }
 /*endtypography*/
+
+
+/* Ask-suggest*/
+#kolona{
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px #80808033;
+  margin-top: 50px;
+}
+/* End Ask-suggest */
+

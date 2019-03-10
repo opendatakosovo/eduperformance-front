@@ -39,16 +39,16 @@
                                         href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Statistics</a>
+                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="statistics.html">Statistics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Schools</a>
+                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="topschools.html">Top Schools</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Fields</a>
+                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="topfields.html">Top Fields</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue  ml-lg-4 " href="#">About</a>
+                                    <a class="nav-link linkmenu-WhiteBlue  ml-lg-4 " href="about.html">About</a>
                                 </li>
 
                                 <!--Line between menu items and M icon -->
@@ -142,23 +142,20 @@
 
           <!-- Options: Teacher, City, School -->
           <div class="row component">
-            <div class="col-3 text-left" id="teacherOption" onclick="FteacherOption()">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left" id="teacherOption" onclick="FteacherOption()">
               <label class="mr-sm-2" for="inlineFormCustomSelect">Subject</label>
               <input type="text" class="form-control" id="inlineFormInputName" placeholder="Mathematics">
             </div>
-            <div class="col-3 text-left"  id="cityOption" onclick="FcityOption()">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left"  id="cityOption" onclick="FcityOption()">
               <label class="mr-sm-2" for="inlineFormCustomSelect">City</label>
               <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                 <option selected>Choose a city</option>
                 <option value="1">Kamenica</option>
-                <option value="2">Lipjani</option>
                 <option value="3">Vitia</option>
-                <option value="4">Deçani</option>
                 <option value="5">Klina</option>
-                <option value="6">Vushtrria</option>
               </select>
             </div>
-            <div class="col-3 text-left" id="schoolOption" onclick="FschoolOption()">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left" id="schoolOption" onclick="FschoolOption()">
               <label class="mr-sm-2" for="inlineFormCustomSelect">School</label>
               <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                 <option selected>Choose a school</option>
@@ -179,10 +176,39 @@
   </div>
 </div>
 <!--End Search for schools and subject-->
+<!--Ask/Suggest-->
+<div class="container"> 
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 " id="kolona">
+          
+                <h3 class="text-primary font-weight-bold mt-4">Report</h3>
+                <p class="color-gray">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even slightly believable.
+                </p>
+                <button type="continue" class="btn btn-primary mb-4 pl-3 pr-3">Continue</button>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 ml-lg-4 ml-xl-4" id="kolona">
+          
+                <h3 class="text-primary font-weight-bold mt-4">Ask/Suggest</h3>
+                <p class="color-gray">
+                    There are many variations of passages of Lorem Ipsum 
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even slightly believable.
+                </p>
+                <button type="continue" class="btn btn-primary mb-4 pl-3 pr-3">Continue</button>
+        </div>
+
+    </div>
+</div>
+<!--END Ask/Suggest-->
     <!--Footer start-->
     <div class="container-fluid footer-img ml-0 mt-4">
 		<div class="row ml-5 mt-customSchool mb-5">
-        <div class=" col-sm-10 ml-sm-5 ml-0 col-md-7 col-lg-5 ml-lg-5 text-white mtcustom-footer">
+        <div class=" col-sm-10 ml-sm-5 ml-0 col-md-5 col-lg-5 ml-lg-5 text-white mtcustom-footer">
         	<div>
             <h5 class="text-uppercase">School of the year</h5>
             <h1 class="font-weight-bold customFontSchool">Summerville</h1>
@@ -197,7 +223,7 @@
          
          </div>
         
-        <div class="col-2 col-sm-2 offset-sm-3 offset-md-0 offset-lg-0 col-md-3 col-lg-4 mtcustom-footer pr-sm-0 ">
+        <div class="col-4 col-sm-3 offset-sm-2 offset-md-0 offset-lg-0 col-md-3 col-lg-4 mtcustom-footer pr-sm-0 text-sm-right">
         	<h5 class="text-white text-uppercase text-lg-right text-md-right font-weight-bold mt-lg-5 mt-sm-1">Fields of</h5>
         	<h5 class="text-white text-uppercase text-lg-right text-md-right  font-weight-bold"> the year</h5>
         </div>
@@ -209,17 +235,17 @@
       </div>
       
       
-  <div class="row bg-primary" >
-    <div class="col-lg-3 offset-lg-1 col-sm-9 offset-sm-3 col-md-5 offset-md-3 mb-5">
-       <p class="text-white mt-5">Funded By</p>
+  <div class="row bg-primary justify-content-center" >
+    <div class="col-7 col-sm-7 col-md-4 col-lg-3 col-xl-3 offset-lg-1 offset-sm-3 offset-md-0  ml-md-5  mb-5 ">
+       <p class="text-white mt-5 ">Funded By</p>
        <img src="assets/images/be.png"  style="width:20%;height: auto;">
        <img src="assets/images/tech.png"  style="width:29%;height: auto;">
     </div>
-      	<div class="col-lg-3 offset-lg-1 col-sm-10 mb-5 date-custom">
+      	<div class="col-7 col-sm-7 col-md-3 col-lg-3 col-lg-3 col-xl-3 offset-lg-1 offset-sm-3 offset-md-0 mb-5 date-custom ">
       		<p class="text-white ml-lg-5 mt-5">January 2019</p>
         </div>
-          <div class="col-lg-3 offset-lg-1 col-sm-10 offset-sm-3 mb-5 ">
-            <p class="text-white mt-5 text-lg-center ">Implemented by</p>
+          <div class="col-7 col-sm-7 col-md-4 col-lg-3 col-xl-3 offset-lg-1 offset-sm-3 offset-md-0 mb-5 ">
+            <p class="text-white mt-5 text-lg-center">Implemented by</p>
             <img src="assets/images/opendata.png" class="ml-lg-3 " style="width:20%;height: auto;">
             <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4" style="width:29%;height: auto;">
           </div>
