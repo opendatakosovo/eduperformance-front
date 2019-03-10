@@ -19,406 +19,144 @@
 </head>
 
 <body>
-    <header class="header-v1">
+    <header>
         <!--div for background img -->
-        <div class="menu img-responsive div-background-home div-background-school">
-            <!--div for transparent navbar -->
-            <div class="navbar transparent navbar-inverse">
-                <div class="navbar-inner" style="width: 100%;">
-                    <nav class="navbar navbar-expand-lg  navbar-light">
-
-                        <button class="navbar-toggler" id="nav-toggle-button" type="button" data-toggle="collapse"
-                            data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon " id="nav-toggle-button"></span>
+        <div class="menu img-responsive div-background-profile" >
+          <!--div for transparent navbar -->
+           <div class="navbar transparent navbar-inverse">
+              <div class="navbar-inner" style="width: 100%;">
+                 <nav class="navbar navbar-expand-lg  navbar-light">
+      
+                        <button class="navbar-toggler" id="nav-toggle-button" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                   <span class="navbar-toggler-icon " id="nav-toggle-button"></span>
                         </button>
-
+                 
                         <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav mr-auto ml-3">
-                                <li class="nav-item active">
-                                    <a class="nav-link linkactive-WhiteBlue text-primary font-weight-bold"
-                                        href="#">Home</a>
+                             <ul class="navbar-nav mr-auto ml-3">
+                                 <li class="nav-item active">
+                                      <a class="nav-link linkactive-GrayBlue text-primary font-weight-bold" href="#">Home</a>
+                                 </li>
+                                 <li class="nav-item">
+                                      <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Statistics</a>
+                                 </li>
+                                 <li class="nav-item">
+                                      <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Schools</a>
+                                 </li>
+                                 <li class="nav-item">
+                                      <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Fields</a>
+                                 </li>
+                                 <li class="nav-item">
+                                      <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="#">About</a>
+                                 </li>
+    
+                                 <!--Line between menu items and M icon -->
+                                 <li class="nav-item mt-2 mr-2 ml-2 login-line-GrayBlue">
+                                      <span class="font-weight-bold"> |</span>
+                                 </li>
+    
+                                 <li class="nav-item ">
+                                      <a href="#" class="tooltip-custom" data-toggle="tooltip" data-placement="right" title="Stories">
+                                          <img src="assets/images/m-gray.png" class="m-style mt-lg-1 mb-md-2 ml-lg-2 m-stories">
+                                      </a>
+                                      
+                                      <!-- in small view change M icon with stories link -->
+                                      <a class="nav-link text-white linkmenu-GrayBlue stories-title">Stories</a>
+                                 </li>
+    
+                             </ul>
+                    
+                             <ul class="navbar-nav ml-3">
+                              <li class="nav-item">
+                                     <button type="button" class="btn text-primary font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button-gray" style="">Report</button>
+                                   
+                                     <a href="#" class="nav-link linkmenu-GrayBlue register-link">Report</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Statistics</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Schools</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Fields</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue  ml-lg-4 " href="#">About</a>
-                                </li>
-
-                                <!--Line between menu items and M icon -->
-                                <li class="nav-item mt-2 mr-2 ml-2 login-line-WhiteBlue">
-                                    <span class="font-weight-bold"> |</span>
-                                </li>
-
-                                <li class="nav-item ">
-                                    <a href="#" class="tooltip-custom" data-toggle="tooltip" data-placement="right"
-                                        title="Stories">
-                                        <img src="assets/images/m-white.png"
-                                            class="m-style mt-lg-2 mb-md-2 ml-lg-2 m-stories">
-                                    </a>
-
-                                    <!-- in small view change M icon with stories link -->
-                                    <a class="nav-link text-white linkmenu-WhiteBlue stories-title">Stories</a>
-                                </li>
-
-                            </ul>
-
-                            <ul class="navbar-nav ml-3">
                                 <!--Dropdown for languages-->
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">EN</a>
-
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                     <a class="nav-link dropdown-toggle color-gray"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
+                                    
+                                     <div class="dropdown-menu dropdown-menu-right"  aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item font-weight-bold" href="#">Sq</a>
                                         <div class="dropdown-divider "></div>
                                         <a class="dropdown-item font-weight-bold" href="#">Sr</a>
-                                    </div>
+                                     </div> 
                                 </li>
-
+                                
                                 <!--Line between language and login -->
-                                <li class="nav-item mt-2 mr-2 ml-2 login-line-WhiteBlue">
-                                    <span class="font-weight-bold "> | </span>
+                                <li class="nav-item mt-2 mr-2 ml-2 login-line-GrayBlue">
+                                     <span class="font-weight-bold "> | </span>
                                 </li>
-
-                                <li class="nav-item">
-                                    <button type="button"
-                                        class="btn btn-primary text-white font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button"
-                                        style="font-size: 15px;padding: 5px 16px;">Register</button>
-
-                                    <a href="#" class="nav-link linkmenu-WhiteBlue register-link">Register</a>
+                                
+                             <!--    <li class="nav-item">
+                                     <button type="button" class="btn text-primary font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button-gray" style="">Register</button>
+                                   
+                                     <a href="#" class="nav-link linkmenu-GrayBlue register-link">Register</a>
+                                </li> -->
+    
+                                <li class="nav-item dropdown">
+                                      <!-- <a class="nav-link font-weight-bold color-gray img-responsive" href="#"> <img src="images/loginGray.png"> John Doe</a> -->
+                                       <a class="nav-link dropdown-toggle text-primary font-weight-bold"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jane Doe</a>
+    
+                                       <div class="dropdown-menu dropdown-menu-right"  aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item font-weight-bold text-primary text-center" href="#">Log out</a>
+                                      </div>
                                 </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-bold text-white img-responsive" href="#"> <img
-                                            src="assets/images/loginWhite.png"> Log In</a>
-                                </li>
-                            </ul>
+                             </ul>
                         </div>
-                    </nav>
-                </div>
-            </div>
-            <!--text-->
-            <div class="container ml-0 container-home">
-                <div class="row mt-custom-home ml-2 ml-md-0">
-                    <div class="col-11 col-sm-11 col-md-12 col-lg-4 ml-sm-4 mb-md-3 text-white font-weight-bold">
-                        <h1 class="customFont">Summerville<br/>School</h1>
-                       
+                  </nav>
+              </div>
+           </div>
+         <!--text-->
+           <div class="container-fluid ml-0 container-profile pb-lg-4 mt-custom-profile">
+              <div class="row ml-md-3 ml-lg-5 mt-5 component-text" style="width: 100%;">
+                
+                    <div class="col-12 col-sm-12 col-md-10 col-lg-2 mr-md-3  ml-3 ml-sm-0 ml-md-3 ml-lg-2 text-center text-sm-center text-md-center text-lg-left mb-4 mb-sm-4 mb-md-5 mb-lg-0 mb-xl-0">
+                      <h1 class="text-primary font-weight-bold heading-custom">Maths</h1>
+                      <h5 class="color-gray ">Sommerville High</h5>
                     </div>
-                </div>
-
-            </div>
-        </div>
+                    
+                    <div class="col-2 col-sm-2 col-md-3 col-lg-2 offset-2 offset-sm-2  offset-lg-0  ml-md-2 ml-lg-0 ml-xl-0  border-right-emoji mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                         <p class="text-primary font-weight-bold text-center">Overall</p>
+                         <p class="text-center"><img src="assets/images/notgood-blue.png" class="img-responsive emoji-header"></p>
+                         <p class="text-primary font-weight-bold text-center">31%</p>
+                    </div>
+                    <div class="col-7 col-sm-8 col-md-7 col-lg-6 ml-md-3 ">
+                      <div class="row">
+                      <div class="col-3 col-sm-3 col-md-3 col-lg-3  ">
+                         <p class="text-center">Behavior</p>
+                         <p class="text-center"><img src="assets/images/neutral-gray.png" class="img-responsive component-emoji"></p>
+                         <p class=" text-center">50%</p>
+                      </div>
+    
+                         <div class="col-3 col-sm-3 col-md-3 col-lg-3  ">
+                          <p class="text-center">Evaluation</p>
+                          <p class="text-center"><img src="assets/images/notgood-gray.png" class="img-responsive component-emoji"></p>
+                          <p class="text-center">40%</p>
+                    </div>
+                     <div class="col-3 col-sm-3 col-md-3 col-lg-3  ">
+                         <p class="text-center">Lecturing</p>
+                         <p class="text-center"><img src="assets/images/bad-gray.png" class="img-responsive component-emoji"></p>
+                         <p class="text-center">25%</p>
+                    </div>
+                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 ">
+                          <p class="text-center ">Working Env.</p>
+                          <p class="text-center"><img src="assets/images/bad-gray.png" class="img-responsive component-emoji"></p>
+                          <p class="text-center">12%</p>
+                    </div>
+                  </div>
+                    </div>
+                     
+                   
+                
+              </div>
+              </div>
+            
+       </div> 
     </header>
-    <!--start about page-->
-    <div class="container">
-        <h2 class="text-primary text-center font-weight-bold mt-4 mb-5">About the school</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-
-                    <p class="text-secondary ml-2 ml-sm-2 ml-md-0 ml-lg-0 ml-xl-0">
-                        A school environment offers students the opportunity to learn to work with others, which is a
-                        very important “real world” skill. Through games and projects, and even participation
-                        in after-school sports, children can learn the importance of forging relationships with each
-                        other.
-                    </p>
-
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-                    <div class="img-wrapper mt-1">
-                        <img src="assets/images/avatar8.jpg" class="rounded-circle img-responsive " alt="Cinque Terre"
-                            width="90px" height="90px">
-
-                    </div>
-                    <h5 class="text-primary font-weight-bold mt-2">Allannah Maude</h5>
-                    <p class="text-secondary">School Director</p>
-                </div>
-                <div class="col-11 col-sm-11 col-md-4 col-lg-4 col-xl-4 ml-3 ml-sm-3 ml-md-0 ml-lg-0 ml-xl-0">
-                    <div>
-                        <h6 class="text-primary font-weight-bold  ">Deputy:</h6>
-
-                        <p class="text-secondary mt-1 mb-4">John Doe</p>
-                    </div>
-                    <div>
-                        <h6 class="text-primary font-weight-bold ">Contact:</h6>
-                        <p class="text-secondary mt-1 "> Rr. "George Bush",
-                            Nr.31, 10 000 Prishtinë, Republika e Kosovës
-                            Phone : +381 38 244 183 /244 186
-                            Fax : +381 38 244 187
-                            Email : rektorati@uni-pr.edu
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-3 mb-3">
-        <div class="row no-gutters">
-
-            <div class="col-4">
-
-                <img src="assets/images/bestschool.png" class="img-fluid">
-
-                <p class="customFont"><b>Best</b><br> <b>Schools</b></p>
-            </div>
-            <div class="col-lg-8 text-center">
-                <table id="example"
-                    class="table table-hover table-sm table-striped float-left display responsive nowrap"
-                    style="width:100%">
-                    <thead>
-                        <tr>
-                            <th>RANK</th>
-                            <th>SCHOOL</th>
-                            <th>RATING</th>
-                            <th>BEST FIELDS</th>
-                            <th>CITY</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">1</span></td>
-                            <td>Crossroads Secondary School</td>
-                            <td><img src="assets/images/neutral-gray-icon.png"></td>
-                            <td>History</td>
-                            <td>St.Paul</td>
-                        </tr>
-                        <tr class="selected-row">
-                            <td><span class="badge badge-primary badge-custom">
-                                    <div style="color:white">2</div>
-                                </span></td>
-                            <td>Sunset Academy</td>
-                            <td><img src="assets/images/good-blue-icon.png"></td>
-                            <td>Biology</td>
-                            <td>Chicago</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">3</span></td>
-                            <td>Riverbank Elementary</td>
-                            <td><img src="assets/images/good-gray-icon.png"></td>
-                            <td>Chemistry</td>
-                            <td>Arlington</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">4</span></td>
-                            <td>Summerville High</td>
-                            <td><img src="assets/images/neutral-gray-icon.png"></td>
-                            <td>Maths</td>
-                            <td>Modesto</td>
-                        </tr>
-
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">5</span></td>
-                            <td>Da Vinci Middle School</td>
-                            <td><img src="assets/images/bad-gray-icon.png"></td>
-                            <td>Physical Education</td>
-                            <td>Modesto</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">6</span></td>
-                            <td>Littlerock Grammar School</td>
-                            <td><img src="assets/images/good-gray-icon.png"></td>
-                            <td>Psychology</td>
-                            <td>Las Vegas</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">7</span></td>
-                            <td>Elk Grove Charter School</td>
-                            <td><img src="assets/images/good-gray-icon.png"></td>
-                            <td>Literature</td>
-                            <td>Denver</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge badge-primary badge-custom">8</span></td>
-                            <td>Ravenwood Middle School</td>
-                            <td><img src="assets/images/neutral-gray-icon.png"></td>
-                            <td>Arts</td>
-                            <td>Greensboro</td>
-                        </tr>
-
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-         <h2 class="text-primary text-center mt-5 ">All Fields</h2>
-    <div class="container ">
-        <div class="row  mt-0 mt-sm-0 mt-md-5 mt-lg-5 mt-xl-5 justify-content-center ">
-            <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3  mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2 ">
-                <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                    <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9  ">
-                          <span class="  font-weight-bold ">Albanian Language
-                          </span>
-                    </div>
-                    <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 " style="padding-right:1%;">
-                        <span class="border border-primary custom-box-eye text-center bg-white "><i
-                                class="far fa-eye p-2 text-primary "></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3  mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                    <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                        <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                              <span class="  font-weight-bold ">Biology
-                              </span>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 pt-1 pb-1" style="padding-right:1%;">
-                            <span class="border border-primary custom-box-eye text-center bg-white "><span
-                                class="pl-2 pr-2 text-uppercase text-primary font-weight-bold">evl</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3  mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                        <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                            <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                  <span class=" font-weight-bold  ">English Language
-                                  </span>
-                            </div>
-                            <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 pt-1 pb-1" style="padding-right:1%;">
-                                <span class="border border-primary custom-box-eye text-center bg-white "><span
-                                    class="pl-2 pr-2 text-uppercase text-primary font-weight-bold">evl</span></span>
-                            </div>
-                        </div>
-                    </div>
-        </div>
-        <div class="row mt-0 mt-sm-0 mt-md-5 mt-lg-5 mt-xl-5 justify-content-center">
-                <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                        <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                            <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 text-primary hover-effect">
-                                  <span class="  font-weight-bold ">Geography
-                                  </span>
-                            </div>
-                            <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 " style="padding-right:1%;">
-                                <span class="border border-primary custom-box-eye text-center bg-white "><i
-                                        class="far fa-eye p-2 text-primary "></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                            <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                                <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                      <span class=" font-weight-bold  ">Larger shadow
-                                      </span>
-                                </div>
-                                <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 pt-1 pb-1" style="padding-right:1%;">
-                                    <span class="border border-primary custom-box-eye text-center bg-white "><span
-                                        class="pl-2 pr-2 text-uppercase text-primary font-weight-bold">evl</span></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                                <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                                    <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                          <span class="  font-weight-bold ">History
-                                          </span>
-                                    </div>
-                                    <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 pt-1 pb-1" style="padding-right:1%;">
-                                        <span class="border border-primary custom-box-eye text-center bg-white "><span
-                                            class="pl-2 pr-2 text-uppercase text-primary font-weight-bold">evl</span></span>
-                                    </div>
-                                </div>
-                            </div>
-        </div>
-
-
-        <div class="row mt-0 mt-sm-0 mt-md-5 mt-lg-5 mt-xl-5 justify-content-center">
-                <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                        <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                            <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                  <span class="  font-weight-bold  ">Maths
-                                  </span>
-                            </div>
-                            <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 " style="padding-right:1%;">
-                                <span class="border border-primary custom-box-eye text-center bg-white "><i
-                                        class="far fa-eye p-2 text-primary "></i></span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                            <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                                <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                      <span class="  font-weight-bold   ">Philosophy
-                                      </span>
-                                </div>
-                                <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 " style="padding-right:1%;">
-                                    <span class="border border-primary custom-box-eye text-center bg-white "><i
-                                            class="far fa-eye p-2 text-primary "></i></span>
-                                </div>
-                            </div>
-                        </div>
-
-
-            <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                    <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                        <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                              <span class=" font-weight-bold  ">Physics
-                              </span>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 pt-1 pb-1" style="padding-right:1%;">
-                            <span class="border border-primary custom-box-eye text-center bg-white "><span
-                                class="pl-2 pr-2 text-uppercase text-primary font-weight-bold">evl</span></span>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        <div class="row mt-0 mt-sm-0 mt-md-5 mt-lg-5 mt-xl-5 justify-content-center">
-            <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                        <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                            <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                  <span class="  font-weight-bold">Physical Education
-                                  </span>
-                            </div>
-                            <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 " style="padding-right:1%;">
-                                <span class="border border-primary custom-box-eye text-center bg-white "><i
-                                        class="far fa-eye p-2 text-primary "></i></span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                            <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                                <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                                      <span class=" font-weight-bold">Psychology
-                                      </span>
-                                </div>
-                                <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 pt-1 pb-1" style="padding-right:1%;">
-                                    <span class="border border-primary custom-box-eye text-center bg-white "><span
-                                        class="pl-2 pr-2 text-uppercase text-primary font-weight-bold">evl</span></span>
-                                </div>
-                            </div>
-                        </div>
-            <div class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3 ml-3 mt-sm-2 mt-2 mt-md-0 mt-lg-0 mt-xl-2">
-                    <div class="row shadow pt-2 pb-2 bg-white rounded text-primary hover-effect">
-                        <div class="col-9 col-sm-9 col-md-9 col-lg-10 col-xl-9 ">
-                              <span class=" font-weight-bold ">Selected Classes
-                              </span>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-3 " style="padding-right:1%;">
-                            <span class="border border-primary custom-box-eye text-center bg-white "><i
-                                    class="far fa-eye p-2 text-primary"></i></span>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-    </div>
-    </div>
+    <!--start subject page-->
    
-    <!--End about school-->
+    
+    <!--End subject school-->
     <!--Footer start-->
 
 
