@@ -271,9 +271,7 @@ body {
   }
 }
 
-.header-v1 {
-  height: 700px;
-}
+
 
 /*-------------------------- WHITE-BLUE NAVBAR STYLE END -----------------------------------*/
 
@@ -768,9 +766,9 @@ div#t2 {
 
 .ask-input {
   width: 100%;
-  padding: 8px 13px;
+  padding: 5px 12px;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 7px;
   border: 2px solid #ccc;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1215,3 +1213,79 @@ table th:last-child{
 }
 /* End Ask-suggest */
 
+/*--Home link --*/
+.link-decoration{
+  text-decoration: none !important;
+}
+/*--End Home link --*/
+
+/* Best School Field*/
+.badge-custom{
+  border-radius: 50%;
+  background-color: #0067f4;
+}
+
+.BestFieldsSchoolBackground
+{
+  background-image: url(/assets/images/best-teacher.png);
+  background-repeat:no-repeat; 
+    background-size:cover;
+}
+.customFont-BestSchoolFields
+{
+  text-align: left;
+  /*font-weight: bold;*/
+  position: absolute;
+    top: 8px;
+    left:16px;
+    font-size: 40px;
+    color: rgba(250,250,250,0.5);
+  }
+.v2{
+  text-align: left;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 40px;
+
+}
+ 
+
+@media only screen and (max-width: 991.3px) {
+  
+  .BestFieldsSchoolBackground 
+   {
+    display: none !important;
+   }
+   .customFont-BestSchoolFields
+   {
+    display: none;
+   }
+   .v2
+   {
+    display: none;
+   }
+}
+
+
+#exampleBestSchoolFields tr:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+#exampleBestSchoolFields .selected-row td{
+  color:#0067f4 !important;
+  border-bottom:1px solid #0067f4 !important;
+  border-top:1px solid #0067f4 !important;
+  vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#exampleBestSchoolFields tbody tr{
+  color: #999798;
+}
+
+#exampleBestSchoolFields thead tr th{
+  color: rgb(150,150,150);
+}
+/* End Best School Field*/
