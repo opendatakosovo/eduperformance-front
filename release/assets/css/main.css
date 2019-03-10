@@ -349,6 +349,9 @@ body {
   .date-custom {
     display: none;
   }
+  .v1{
+    display:none;
+  }
 }
 
 /* Footer End* (rk)*/
