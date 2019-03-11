@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header class="header-v1">
+    <header class="header-v1 mb-0 h-100">
         <!--div for background img -->
         <div class="menu img-responsive div-background-home">
             <!--div for transparent navbar -->
@@ -39,16 +39,16 @@
                                         href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Statistics</a>
+                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="statistics.html">Statistics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Schools</a>
+                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="top-schools.html">Top Schools</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="#">Top Fields</a>
+                                    <a class="nav-link linkmenu-WhiteBlue ml-lg-4 " href="top-fields.html">Top Fields</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-WhiteBlue  ml-lg-4 " href="#">About</a>
+                                    <a class="nav-link linkmenu-WhiteBlue  ml-lg-4 " href="about.html">About</a>
                                 </li>
 
                                 <!--Line between menu items and M icon -->
@@ -91,13 +91,13 @@
                                 <li class="nav-item">
                                     <button type="button"
                                         class="btn btn-primary text-white font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button"
-                                        style="font-size: 15px;padding: 5px 16px;">Register</button>
+                                        style="font-size: 15px;padding: 5px 16px;"><a href="register.html" class="link-decoration text-white">Register</a></button>
 
-                                    <a href="#" class="nav-link linkmenu-WhiteBlue register-link">Register</a>
+                                    <a href="register.html" class="nav-link linkmenu-WhiteBlue register-link">Register</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link font-weight-bold text-white img-responsive" href="#"> <img
+                                    <a class="nav-link font-weight-bold text-white img-responsive" href="login.html"> <img
                                             src="assets/images/loginWhite.png"> Log In</a>
                                 </li>
                             </ul>
@@ -109,22 +109,21 @@
             <div class="container ml-0 container-home">
                 <div class="row mt-custom-home ml-2 ml-md-0">
                     <div class="col-11 col-sm-11 col-md-12 col-lg-4 ml-sm-4 mb-md-3 text-white font-weight-bold">
-                        <h1>Enhance</h1>
-                        <h1>Education</h1>
+                        <h2 class="font-weight-bold">EduPerformance</h2>
+                     
                     </div>
                 </div>
                 <hr class="lineWhite">
                 <div class="row  mt-2 ml-2 ml-md-0">
                     <div class="col-12 col-sm-12 col-md-7 col-lg-4 ml-sm-4 mt-sm-4 mb-1 text-white">
-                        <p>By using <span class="font-weight-bold"><ins>Enhance Education</ins></span> you can rate your
+                        <p>By using <span class="font-weight-bold"><ins>EduPerformance</ins></span> you can rate your
                             teachers, list the best teachers & schools. This way you can give your contribution towards
                             an improved education system in your country.</p>
                     </div>
                 </div>
                 <div class="row  mt-3 ml-2 ml-md-0">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 ml-sm-4 ml-md-4 mb-5">
-                        <button type="button" class="btn btn-light text-primary font-weight-bold "
-                            style="font-size: 15px;padding: 5px 16px;">Evaluate</button>
+                        <a type="continue" class="btn btn-light text-primary font-weight-bold pl-3 pr-3" href="subject-evaluation.html">Evaluate</a>
                     </div>
                 </div>
             </div>
@@ -133,8 +132,8 @@
 <!--Search for schools and subject-->
 <div class="container">
 <div class="row">
-    <div class="col-lg-12 text-center">
-      <div class="mt-5" id="paragraph1">Search for subjects, schools & subjects</div>
+    <div class="col-lg-12 text-center ">
+      <div class="mt-5" id="paragraph1">Search for  schools & fields</div>
       <div class="mt-2" id="paragraph2">Search information based on the three following indicators.</div>
       <p class="mt-2 mb-3" id="paragraph3">You can search by at least one indicator.</p>
        <!--<div class="form-row align-items-center">
@@ -142,25 +141,22 @@
 
           <!-- Options: Teacher, City, School -->
           <div class="row component">
-            <div class="col-3 text-left" id="teacherOption" onclick="FteacherOption()">
-              <label class="mr-sm-2" for="inlineFormCustomSelect">Subject</label>
-              <input type="text" class="form-control" id="inlineFormInputName" placeholder="Mathematics">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left" id="teacherOption" onclick="FteacherOption()">
+              <label class="mr-sm-2 ask-input-focus-1" for="inlineFormCustomSelect">Field</label>
+              <input type="text" class="form-control ask-input" id="1" placeholder="Mathematics">
             </div>
-            <div class="col-3 text-left"  id="cityOption" onclick="FcityOption()">
-              <label class="mr-sm-2" for="inlineFormCustomSelect">City</label>
-              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left "  id="cityOption" onclick="FcityOption()">
+              <label class="mr-sm-2 ask-input-focus-2" for="inlineFormCustomSelect ">City</label>
+              <select class="custom-select mr-sm-2 ask-input" id="2">
                 <option selected>Choose a city</option>
                 <option value="1">Kamenica</option>
-                <option value="2">Lipjani</option>
                 <option value="3">Vitia</option>
-                <option value="4">Deçani</option>
                 <option value="5">Klina</option>
-                <option value="6">Vushtrria</option>
               </select>
             </div>
-            <div class="col-3 text-left" id="schoolOption" onclick="FschoolOption()">
-              <label class="mr-sm-2" for="inlineFormCustomSelect">School</label>
-              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 text-left" id="schoolOption" onclick="FschoolOption()">
+              <label class="mr-sm-2 ask-input-focus-3" for="inlineFormCustomSelect">School</label>
+              <select class="custom-select mr-sm-2 ask-input" id="3">
                 <option selected>Choose a school</option>
                 <option value="1">Option1</option>
                 <option value="2">Option2</option>
@@ -168,7 +164,7 @@
                 <option value="4">Option4</option>
               </select>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-6 col-sm-3 col-md-2 col-lg-3 col-xl-3 text-center">
               <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
               <button type="submit" class="btn btn-primary form-control mt-2">Search</button>
             </div>
@@ -179,47 +175,215 @@
   </div>
 </div>
 <!--End Search for schools and subject-->
+<!-- Best SchoolFields-->
+<div class="container-fluid pr-0">
+      <div class="row mt-5 mr-0">
+        <div class="col-4 col-sm-2 col-md-4 col-lg-4 pl-0 pr-0 ml-0 mr-0 mb-3 BestFieldsSchoolBackground d-none d-md-block">
+
+          <div class="text-white text-right ">
+            <h5 class="customFont-BestSchoolFields"><b>Best</b><br><b>Schools</b></h5>
+            <h5 class="v2"><b>Best</b><br><b>Fields</b></h5>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 pl-0 pr-0 ml-0 mr-0" >
+          <div class="table-responsive ">
+            <table class="table" id="exampleBestSchoolFields">
+              <thead>
+                <tr>
+                  <th scope="col" class="text-center">RANK</th>
+                  <th scope="col">FIELDS</th>
+                  <th scope="col">RATING</th>
+                  <th scope="col">SCHOOL</th>
+                  <th scope="col">CITY</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">1</div></span></td>
+                  <td>History</td>
+                  <td><img src="/assets/images/neutral-gray-icon.png"></td>
+                  <td>Crossroads Secondary School</td>
+                  <td>St.Paul</td>
+                </tr>
+                <tr class="selected-row">
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">2</div></span></td>
+                  <td>Biology</td>
+                  <td><img src="/assets/images/good-blue-icon.png"><br>54%</td>
+                  <td>Sunset Academy</td>
+                  <td>Chicago</td>
+                </tr>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">3</div></span></td>
+                  <td>Chemistry</td>
+                  <td><img src="/assets/images/good-gray-icon.png"></td>
+                  <td>Riverbank Elementary</td>
+                  <td>Arlington</td>
+                </tr>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">4</div></span></td>
+                  <td>Maths</td>
+                  <td><img src="/assets/images/neutral-gray-icon.png"></td>
+                  <td>Summerville High</td>
+                  <td>Modesto</td>
+                </tr>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">5</div></span></td>
+                  <td>Physical Education</td>
+                  <td><img src="/assets/images/bad-gray-icon.png"></td>
+                  <td>Da Vinci Middle School</td>
+                  <td>Modesto</td>
+                </tr>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">6</div></span></td>
+                  <td>Psychology</td>
+                  <td><img src="/assets/images/good-gray-icon.png"></td>
+                  <td>Littlerock Grammar School</td>
+                  <td>Las Vegas</td>
+                </tr>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">7</div></span></td>
+                  <td>Literature</td>
+                  <td><img src="/assets/images/good-gray-icon.png"></td>
+                  <td>Elk Grove Charter School</td>
+                  <td>Denver</td>
+                </tr>
+                <tr>
+                  <td scope="row" class="text-center"><span class="badge badge-custom"><div style="color:white;">8</div></span></td>
+                  <td>Arts</td>
+                  <td><img src="/assets/images/neutral-gray-icon.png"></td>
+                  <td>Ravenwood Middle School</td>
+                  <td>Greensboro</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- End Best SchoolFields-->
+<!--Ask/Suggest and Report-->
+<div class="container-fluid"> 
+    <div class="row justify-content-center">
+        <div class="col-11 col-sm-11 col-md-12 col-lg-5 col-xl-5 pl-5 pr-5" id="kolona">
+          
+                <h3 class="text-primary font-weight-bold mt-4 mr-5">Report</h3>
+                <p class="color-gray mr-5">
+                    Report any problem regarding the education system, your school, your teacher etc.You can remain anonymous.Your reports will be automatically sent to Kosovar Youth Council.
+                </p>
+                <a type="continue" class="btn btn-primary mb-4 pl-3 pr-3 mr-5" href="report.html">Continue</a>
+        </div>
+        <div class="col-11 col-sm-11 col-md-12 col-lg-5 col-xl-5 ml-lg-5 ml-xl-5 pl-5 pr-5 " id="kolona">
+          
+                <h3 class="text-primary font-weight-bold mt-4 mr-5">Ask/Suggest</h3>
+                <p class="color-gray mr-5">
+                    Suggest and/or ask anything you think that can improve the education system in
+                    your school. The question and suggestions will be automatically sent to Open Data Kosovo.
+                </p>
+                <a type="continue" class="btn btn-primary mb-4 pl-3 pr-3 mr-5" href="ask-suggestion.html">Continue</a>
+        </div>
+
+    </div>
+</div>
+<!--END Ask/Suggest-->
+<!--Search for statistic-->
+<div class="container">
+<div class="row">
+    <div class="col-lg-12 text-center mt-2 mt-sm-3 mt-md-4 mt-lg-4 mt-xl-4 mb-4">
+      <div class="mt-5" id="paragraph1"> Statistics</div>
+      <div class="mt-2" id="paragraph2">but the majority have suffered alteration in some form, by injected humour,</div>
+      <p class="mt-2 mb-3" id="paragraph3"> or randomised words which don't look even slightly believable.</p>
+     
+       <!--<div class="form-row align-items-center">
+        <div class="col-auto my-1">-->
+
+          <!-- Options: Teacher, City, School -->
+          <div class="row component">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left" id="teacherOption" onclick="FteacherOption()">
+              <label class="mr-sm-2 ask-input-focus-1" for="inlineFormCustomSelect">Subject</label>
+              <input type="text" class="form-control ask-input" id="1" placeholder="John Doe">
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left "  id="cityOption" onclick="FcityOption()">
+              <label class="mr-sm-2 ask-input-focus-2" for="inlineFormCustomSelect ">City</label>
+              <select class="custom-select mr-sm-2 ask-input" id="2">
+                <option selected>Choose a city</option>
+                <option value="1">Kamenica</option>
+                <option value="3">Vitia</option>
+                <option value="5">Klina</option>
+              </select>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 text-left" id="schoolOption" onclick="FschoolOption()">
+              <label class="mr-sm-2 ask-input-focus-3" for="inlineFormCustomSelect">School</label>
+              <select class="custom-select mr-sm-2 ask-input" id="3">
+                <option selected>Choose a school</option>
+                <option value="1">Option1</option>
+                <option value="2">Option2</option>
+                <option value="3">Option3</option>
+                <option value="4">Option4</option>
+              </select>
+            </div>
+            <div class="col-6 col-sm-3 col-md-2 col-lg-3 col-xl-3 text-center">
+              <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+              <button type="submit" class="btn btn-primary form-control mt-2">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Search for sstatistic-->
     <!--Footer start-->
     <div class="container-fluid footer-img ml-0 mt-4">
 		<div class="row ml-5 mt-customSchool mb-5">
-        <div class=" col-sm-10 ml-sm-5 ml-0 col-md-7 col-lg-5 ml-lg-5 text-white mtcustom-footer">
-        	<div>
-            <h5 class="text-uppercase">School of the year</h5>
+        <div class=" col-sm-10 ml-sm-5 ml-0 col-md-5 col-lg-5 ml-lg-5 text-white mtcustom-footer ">
+        	<div class="text-sm-center text-md-left text-lg-left ">
+            <h5 class="text-uppercase ">School of the year</h5>
             <h1 class="font-weight-bold customFontSchool">Summerville</h1>
-            <h1 class="font-weight-bold customFontSchool float-left" >High</h1>
+            <h1 class="font-weight-bold customFontSchool  text-sm-center text-md-left text-lg-left" >High</h1>
           </div>
          
-         <div class="float-none d-block readMore-Part ml-sm-5 ml-lg-0 ml-md-0" >
-           <p class="img-responsive mb-0 mb-sm-4 mb-md-5 mb-lg-5  ml-sm-4 ml-md-0 ml-lg-0  text-white ">Read More
-              <img src="assets/images/right-arrowWhite.png" class="ReadMoreImg ml-3 ">
-           </p>
+         <div class="float-none d-block readMore-Part  ml-lg-0 ml-md-0" >
+            <a href="top-schools.html" class="link-decoration">
+               <p class="img-responsive mb-0 mb-sm-4 mb-md-5 mb-lg-5  text-white text-sm-center text-md-left">Read More
+                  <img src="assets/images/right-arrowWhite.png" class="ReadMoreImg ml-3  ">
+               </p>
+           </a>
          </div>
          
          </div>
+
         
-        <div class="col-2 col-sm-2 offset-sm-3 offset-md-0 offset-lg-0 col-md-3 col-lg-4 mtcustom-footer pr-sm-0 ">
-        	<h5 class="text-white text-uppercase text-lg-right text-md-right font-weight-bold mt-lg-5 mt-sm-1">Fields of</h5>
-        	<h5 class="text-white text-uppercase text-lg-right text-md-right  font-weight-bold"> the year</h5>
+        <div class="col-4 col-sm-6  col-md-3 col-lg-4 ml-sm-3 mtcustom-footer pr-sm-0 text-sm-right">
+            <a href="top-fields.html" class="link-decoration">
+            	<h5 class="text-white text-uppercase text-lg-right text-md-right font-weight-bold mt-lg-5 mt-sm-1">Fields of</h5>
+            	<h5 class="text-white text-uppercase text-lg-right text-md-right  font-weight-bold"> the year</h5>
+             </a>
         </div>
-        
+       
+
         <div class="col-2 col-sm-2 col-md-1 col-lg-2 mtcustom-footer pl-0 pl-sm-0 ">
-        	<img src="assets/images/next.png" class="mt-lg-5 img-fluid ImgArrow-custom mr-0" >
+            <a href="top-fields.html" class="link-decoration">
+        	  <img src="assets/images/next.png" class="mt-lg-5 img-fluid ImgArrow-custom mr-0" >
+            </a>
         </div>
       
       </div>
       
       
-  <div class="row bg-primary" >
-    <div class="col-lg-3 offset-lg-1 col-sm-9 offset-sm-3 col-md-5 offset-md-3 mb-5">
-       <p class="text-white mt-5">Funded By</p>
+  <div class="row bg-primary justify-content-center" >
+    <div class="col-7 col-sm-7 col-md-4 col-lg-3 col-xl-3 offset-lg-1 offset-sm-3 offset-md-0  ml-md-5  mb-5 ">
+       <p class="text-white mt-5 ">Funded By</p>
        <img src="assets/images/be.png"  style="width:20%;height: auto;">
        <img src="assets/images/tech.png"  style="width:29%;height: auto;">
     </div>
-      	<div class="col-lg-3 offset-lg-1 col-sm-10 mb-5 date-custom">
-      		<p class="text-white ml-lg-5 mt-5">January 2019</p>
+      	<div class="col-7 col-sm-7 col-md-3 col-lg-3 col-lg-3 col-xl-3 offset-lg-1 offset-sm-3 offset-md-0 mb-5 date-custom ">
+      		<p class="text-white ml-lg-5 mt-5">March 2019</p>
         </div>
-          <div class="col-lg-3 offset-lg-1 col-sm-10 offset-sm-3 mb-5 ">
-            <p class="text-white mt-5 text-lg-center ">Implemented by</p>
+          <div class="col-7 col-sm-7 col-md-4 col-lg-3 col-xl-3 offset-lg-1 offset-sm-3 offset-md-0 mb-5 ">
+            <p class="text-white mt-5 text-lg-center">Implemented by</p>
             <img src="assets/images/opendata.png" class="ml-lg-3 " style="width:20%;height: auto;">
             <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4" style="width:29%;height: auto;">
           </div>

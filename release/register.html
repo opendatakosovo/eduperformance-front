@@ -35,19 +35,19 @@
                             <ul class="navbar-nav mr-auto ml-3">
                                 <li class="nav-item active">
                                     <a class="nav-link linkactive-GrayBlue text-primary font-weight-bold"
-                                        href="#">Home</a>
+                                        href="home.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Statistics</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="statistics.html">Statistics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Schools</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="top-schools.html">Top Schools</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Fields</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="top-fields.html">Top Fields</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="#">About</a>
+                                    <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="about.html">About</a>
                                 </li>
 
                                 <!--Line between menu items and M icon -->
@@ -92,7 +92,7 @@
                                         class="btn text-primary font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button-gray"
                                         style="">Register</button>
 
-                                    <a href="#" class="nav-link linkmenu-GrayBlue register-link">Register</a>
+                                    <a href="register.html" class="nav-link linkmenu-GrayBlue register-link">Register</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -110,29 +110,29 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Register</h1>
+                <h1 class="mt-5" style="color: #007bff;">Register</h1>
 
 
-                <p class="overlay-text mx-auto"><span>or</span></p>
+                <p class="overlay-text mx-auto"><span></span></p>
 
             </div>
         </div>
 
 
-
+<div class="container">
         <div class="row"></div>
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <div class="row">
-                   
+
                     <div class="form-group col-md-6">
-                        <label for="birthday">Birthday</label>
-                        <input type="text" name="Birthday" id="birthday" class="form-control" placeholder="Birthday"
-                            required>
+                        <label for="username">Username</label>
+                        <input type="text" name="Username" id="username" class="form-control" placeholder="Username"
+                               required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="parent">Parent</label>
-                        <input type="text" name="Parent" id="parent" class="form-control" placeholder="Parent's Name"
+                        <label for="birthday">Birthday</label>
+                        <input type="date" name="Birthday" id="birthday" class="form-control" placeholder="Birthday"
                             required>
                     </div>
                     <div class="form-group col-md-6">
@@ -141,24 +141,30 @@
                             required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="address">Address</label>
-                        <input type="text" name="Address" id="address" class="form-control" placeholder="Address"
-                            required>
-                    </div>
-                    <div class="form-group col-md-6">
                         <label for="school">School</label>
                         <input name="School" id="school" class="form-control" placeholder="School" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="class">Class</label>
-                        <input type="text" name="Class" id="class" class="form-control" placeholder="Class" required>
+                        <label for="department">Department</label>
+                        <input type="text" name="Department" id="department" class="form-control" placeholder="Department"
+                               required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="text">Email</label>
+                        <label for="yearofstudy">Year of study</label>
+                        <select type="text" name="YearOfStudy" id="yearofstudy" class="form-control" placeholder="Year of study"
+                                required>
+                            <option value="">--Select--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
                         <input type="Email" name="Email" id="email" class="form-control" placeholder="Email" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="healthinsurance">Password</label>
+                        <label for="password">Password</label>
                         <input type="password" name="Password" id="password" class="form-control" placeholder="Password"
                             required>
                     </div>
@@ -178,7 +184,7 @@
         </div>
     </div>
     </div>
-
+</div>
 
     <div class="container-fluid footer-img ml-0 mt-4">
         <div class="row bg-primary">
