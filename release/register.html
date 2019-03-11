@@ -19,7 +19,7 @@
 <body>
     <header>
         <!--div for background img -->
-        <div class="menu img-responsive header-background-gray">
+        <div class="menu img-responsive ">
             <!--div for transparent navbar -->
             <div class="navbar transparent navbar-inverse">
                 <div class="navbar-inner" style="width: 100%;">
@@ -34,7 +34,7 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto ml-3">
                                 <li class="nav-item active">
-                                    <a class="nav-link linkactive-GrayBlue text-primary font-weight-bold"
+                                    <a class="nav-link linkmenu-GrayBlue"
                                         href="home.html">Home</a>
                                 </li>
                                 <li class="nav-item">
@@ -90,13 +90,13 @@
                                 <li class="nav-item">
                                     <button type="button"
                                         class="btn text-primary font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button-gray"
-                                        style="">Register</button>
+                                        style=""><a href="register.html" class="link-decoration text-white">Register</a></button>
 
-                                    <a href="register.html" class="nav-link linkmenu-GrayBlue register-link">Register</a>
+                                    <a href="register.html" class="nav-link linkactive-GrayBlue text-primary font-weight-bold register-link">Register</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link font-weight-bold color-gray img-responsive" href="#"> <img
+                                    <a class="nav-link font-weight-bold color-gray img-responsive" href="login.html"> <img
                                             src="assets/images/loginGray.png"> Log In</a>
                                 </li>
                             </ul>
@@ -109,7 +109,7 @@
     <!-- Task 2: Login Form -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center mb-4">
                 <h1 class="mt-5" style="color: #007bff;">Register</h1>
 
 
@@ -125,33 +125,48 @@
             <div class="col-lg-10 mx-auto">
                 <div class="row">
 
+                     <div class="form-group col-md-6">
+                        <label for="city" class="ask-input-focus-1">Municipality</label>
+                        <select class="custom-select mr-sm-2 ask-input" id="1">
+                            <option selected>Choose a city</option>
+                            <option value="1">Kamenica</option>
+                            <option value="3">Vitia</option>
+                            <option value="5">Klina</option>
+                        </select>
+                    </div>
                     <div class="form-group col-md-6">
-                        <label for="username">Username</label>
-                        <input type="text" name="Username" id="username" class="form-control" placeholder="Username"
+                        <label for="school" class="ask-input-focus-2">School</label>
+                        <input name="School" id="2" class="form-control ask-input" placeholder="School" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="department" class="ask-input-focus-3">Department</label>
+                        <input type="text" name="Department" id="3" class="form-control ask-input" placeholder="Department"
                                required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="birthday">Birthday</label>
-                        <input type="date" name="Birthday" id="birthday" class="form-control" placeholder="Birthday"
+                         <p class="text-dark font-weight-bold mb-1  ">Do you want to remain anonymous?</p>
+
+                            <label class="radio-button-custom mr-5 mt-2">Yes
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark "></span>
+                            </label>
+
+                            <label class="radio-button-custom ">No
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="birthday" class="ask-input-focus-4">Birthday</label>
+                        <input type="date" name="Birthday" id="4" class="form-control ask-input" placeholder="Birthday"
                             required>
                     </div>
+                   
+                    
+                    
                     <div class="form-group col-md-6">
-                        <label for="city">Municipality</label>
-                        <input type="text" name="Municipality" id="city" class="form-control" placeholder="Municipality"
-                            required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="school">School</label>
-                        <input name="School" id="school" class="form-control" placeholder="School" required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="department">Department</label>
-                        <input type="text" name="Department" id="department" class="form-control" placeholder="Department"
-                               required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="yearofstudy">Year of study</label>
-                        <select type="text" name="YearOfStudy" id="yearofstudy" class="form-control" placeholder="Year of study"
+                        <label for="yearofstudy" class="ask-input-focus-5">Year of study</label>
+                        <select type="text" name="YearOfStudy" id="5" class="form-control ask-input" placeholder="Year of study"
                                 required>
                             <option value="">--Select--</option>
                             <option value="1">1</option>
@@ -160,21 +175,21 @@
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="email">Email</label>
-                        <input type="Email" name="Email" id="email" class="form-control" placeholder="Email" required>
+                        <label for="email" class="ask-input-focus-6">Email</label>
+                        <input type="Email" name="Email" id="6" class="form-control ask-input" placeholder="Email" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="password">Password</label>
-                        <input type="password" name="Password" id="password" class="form-control" placeholder="Password"
+                        <label for="password" class="ask-input-focus-7">Password</label>
+                        <input type="password" name="Password" id="7" class="form-control ask-input" placeholder="Password"
                             required>
                     </div>
                     <div class="row">
                         <div class="col-md-12 float-left ">
-                            <div class="col-lg-7 col-md-6"></div>
-                            <div class="col-lg-5 col-md-8 submit-button float-left">
-                                <button type="submit" class="btn btn-outline-primary btn-block">Clear</button>
+                            
+                            <div class="col-lg-5 col-md-5 submit-button float-left mt-2">
+                                <button type="reset" class="btn btn-outline-primary btn-block">Clear</button>
                             </div>
-                            <div class="col-lg-7 col-md-9 submit-button float-left">
+                            <div class="col-lg-7 col-md-7 submit-button float-left mt-2">
                                 <button type="submit" class="btn btn-primary btn-block">Submit Form</button>
                             </div>
                         </div>
@@ -186,23 +201,22 @@
     </div>
 </div>
 
-    <div class="container-fluid footer-img ml-0 mt-4">
+  <div class="container-fluid  ml-0 mt-4">
         <div class="row bg-primary">
-            <div class="col-lg-3 offset-lg-1 col-sm-9 offset-sm-3 col-md-5 offset-md-3 mb-5">
+            <div class="col-9 col-sm-9 col-md-3 col-lg-3 col-xl-3  offset-sm-3 offset-md-0 offset-lg-1  mb-5 text-center text-sm-left">
                 <p class="text-white mt-5">Funded By</p>
                 <img src="assets/images/be.png" style="width:20%;height: auto;">
                 <img src="assets/images/tech.png" style="width:29%;height: auto;">
             </div>
-            <div class="col-lg-3 offset-lg-1 col-sm-10 mb-5 date-custom">
-                <p class="text-white ml-lg-5 mt-5">January 2019</p>
+            <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 offset-lg-1 mb-5 date-custom text-md-right text-lg-left">
+                <p class="text-white ml-md-5 ml-lg-5 mt-5 ">March 2019</p>
             </div>
-            <div class="col-lg-3 offset-lg-1 col-sm-10 offset-sm-3 mb-5 ">
-                <p class="text-white mt-5 text-lg-center ">Implemented by</p>
+            <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 offset-sm-3 offset-lg-1  mb-5 text-center text-sm-left text-md-right text-lg-left">
+                <p class="text-white mt-5 ml-lg-2 text-sm-left text-md-right text-lg-left">Implemented by</p>
                 <img src="assets/images/opendata.png" class="ml-lg-3 " style="width:20%;height: auto;">
-                <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4" style="width:29%;height: auto;">
+                <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4 "  style="width:29%;height: auto;">
             </div>
         </div>
-
     </div>
 
 
