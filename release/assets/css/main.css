@@ -23,7 +23,7 @@ body {
   background-image: url(/assets/images/school.png);
    background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 
 .lineWhite {
@@ -423,7 +423,7 @@ div#t2 {
 
 .bColorBlue {
   background-color: #0067f4;
-  font-weight: bold;
+  
 }
 
 .customFont {
@@ -681,7 +681,7 @@ div#t2 {
   background-color: #0067f4;
 }
 
-.BestTopFieldsBackground {
+.BestTopSchoolsBackground {
   background-image: url(/assets/images/bestschool.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1276,7 +1276,7 @@ table th:last-child{
    {
     display: none !important;
    }
-   .BestTopFieldsBackground 
+   .BestTopSchoolsBackground 
    {
     display: none !important;
    }
