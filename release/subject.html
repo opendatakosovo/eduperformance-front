@@ -25,7 +25,7 @@
             <!--div for transparent navbar -->
             <div class="navbar transparent navbar-inverse">
                 <div class="navbar-inner" style="width: 100%;">
-                    <nav class="navbar navbar-expand-lg  navbar-light">
+                   <nav class="navbar navbar-expand-lg  navbar-light">
 
                         <button class="navbar-toggler" id="nav-toggle-button" type="button" data-toggle="collapse"
                             data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
@@ -36,20 +36,20 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto ml-3">
                                 <li class="nav-item active">
-                                    <a class="nav-link linkactive-GrayBlue text-primary font-weight-bold"
-                                        href="#">Home</a>
+                                    <a class="nav-link linkmenu-GrayBlue"
+                                        href="home.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Statistics</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="statistics">Statistics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Schools</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="top-schools.html">Top Schools</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Fields</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="top-fields.html">Top Fields</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="#">About</a>
+                                    <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="about.html">About</a>
                                 </li>
 
                                 <!--Line between menu items and M icon -->
@@ -74,9 +74,9 @@
                                 <li class="nav-item">
                                     <button type="button"
                                         class="btn text-primary font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button-gray"
-                                        style="">Report</button>
+                                        style=""><a href="report.html" class="link-decoration text-white">Report</a></button>
 
-                                    <a href="#" class="nav-link linkmenu-GrayBlue register-link">Report</a>
+                                    <a href="report.html" class="nav-link linkmenu-GrayBlue register-link">Report</a>
                                 </li>
                                 <!--Dropdown for languages-->
                                 <li class="nav-item dropdown">
@@ -126,6 +126,7 @@
                         class="col-12 col-sm-12 col-md-10 col-lg-2 mr-md-3  ml-3 ml-sm-0 ml-md-3 ml-lg-2 text-center text-sm-center text-md-center text-lg-left mb-4 mb-sm-4 mb-md-5 mb-lg-0 mb-xl-0">
                         <h1 class="text-primary font-weight-bold heading-custom">Arts</h1>
                         <h5 class="color-gray ">Luigj Gurakuqi Gymnasium</h5>
+                        <button type="button" class="btn btn-primary mt-3"><a href="subject-evaluation.html" class="link-decoration text-white">Evaluate</a></button>
                         </div>
 
                     <div
@@ -174,6 +175,44 @@
     </header>
 
     <!--start subject evaluation page-->
+    <div class="container ">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h4 class="mt-5" style="color: #0067f4; font-family: 'Poppins', sans-serif;"><b>Statistics</b></h4>
+                <div class="mt-2" id="paragraph2">but the majority have suffered alteration in some form, by injected humour,</div>
+                <p class="mt-2 mb-5" id="paragraph3">or randomised words which don't look even slightly believable.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">Overall</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Behavior</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                        aria-controls="v-pills-messages" aria-selected="false">Evaluation</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Lecturing</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Working env.</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 shadow p-5 mb-5 bg-white rounded" style="margin-left:-14px; ">
+                <div class="row">
+                  <div class="col-12 col-sm-2 col-md-3 col-lg-3 col-xl-3 text-center">
+                    <h5 style="color: #0067f4; font-family: 'Poppins', sans-serif;">Not Good</h5>
+                    <img src="assets/images/notgood-blue-icon.png" style="color:#0067f4 !important;"><br>
+                    <h5 style="color: #0067f4; font-family: 'Poppins', sans-serif;">31%</h5>
+                  </div>
+                  <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1  v1">
+                  </div>
+                  <div class=" col-12 col-sm-10 col-md-8 col-lg-8 col-xl-8"id="main" style="height:300px; width:100%;margin-top:-50px"></div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container mt-5">
         <div class=" text-center subtitle">
             <p>Other Subjects</p>
@@ -268,20 +307,20 @@
 
 
     <!--Footer start-->
-    <div class="container-fluid footer-img ml-0 mt-4">
+ <div class="container-fluid footer-img ml-0 mt-4">
         <div class="row bg-primary">
-            <div class="col-lg-3 offset-lg-1 col-sm-9 offset-sm-3 col-md-5 offset-md-3 mb-5">
+            <div class="col-9 col-sm-9 col-md-3 col-lg-3 col-xl-3  offset-sm-3 offset-md-0 offset-lg-1  mb-5 text-center text-sm-left">
                 <p class="text-white mt-5">Funded By</p>
                 <img src="assets/images/be.png" style="width:20%;height: auto;">
                 <img src="assets/images/tech.png" style="width:29%;height: auto;">
             </div>
-            <div class="col-lg-3 offset-lg-1 col-sm-10 mb-5 date-custom">
-                <p class="text-white ml-lg-5 mt-5">March 2019</p>
+            <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 offset-lg-1 mb-5 date-custom text-md-right text-lg-left">
+                <p class="text-white ml-md-5 ml-lg-5 mt-5 ">March 2019</p>
             </div>
-            <div class="col-lg-3 offset-lg-1 col-sm-10 offset-sm-3 mb-5 ">
-                <p class="text-white mt-5 text-lg-center ">Implemented by</p>
+            <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 offset-sm-3 offset-lg-1  mb-5 text-center text-sm-left text-md-right text-lg-left">
+                <p class="text-white mt-5 ml-lg-2 text-sm-left text-md-right text-lg-left">Implemented by</p>
                 <img src="assets/images/opendata.png" class="ml-lg-3 " style="width:20%;height: auto;">
-                <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4" style="width:29%;height: auto;">
+                <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4 "  style="width:29%;height: auto;">
             </div>
         </div>
     </div>
@@ -290,7 +329,100 @@
     <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/echarts.js"></script>
     <script src="assets/js/main.js"></script>
+     <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('main'));
+        // specify chart configuration item and data
+        var option = {
+            xAxis: {
+                type: 'category',
+                data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: [120, 200, 150, 80, 70, 110, 130],
+                type: 'bar',
+                color: '#0067f4'
+            }]
+        };
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+    </script>
+    <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('main2'));
+        // specify chart configuration item and data
+        var option = {
+            xAxis: {
+                type: 'category',
+                data: ['2013', '2014', '2015', '2016', '2017', '2018', '2019']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: [120, 200, 150, 80, 70, 110, 130],
+                type: 'bar',
+                color: '#0067f4'
+            }]
+        };
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+    </script>
+    <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('main3'));
+        var option = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            series: [
+                {
+                    name: 'gender',
+                    type: 'pie',
+                    radius: ['60%', '50%'],
+                    data: [
+                        { value: 310, itemStyle: { color: '#2E9AFE' }, name: 'Girls 55%' },
+                        { value: 290, itemStyle: { color: '#0067f4' }, name: 'Boys 45%' },
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+    </script>
+    <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('main1'));
+        // specify chart configuration item and data
+        var option = {
+            xAxis: {
+                type: 'category',
+                data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: [120, 200, 150, 80, 70, 110, 130],
+                type: 'bar',
+                color: '#0067f4'
+            }]
+        };
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+    </script>
 </body>
 
 </html>
