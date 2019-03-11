@@ -34,20 +34,19 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto ml-3">
                                 <li class="nav-item active">
-                                    <a class="nav-link linkactive-GrayBlue text-primary font-weight-bold"
-                                        href="#">Home</a>
+                                    <a class="nav-link linkmenu-GrayBlue" href="home.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Statistics</a>
+                                    <a class="nav-link linkactive-GrayBlue text-primary font-weight-bold ml-lg-4 " href="#">Statistics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Schools</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="top-schools.html">Top Schools</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="#">Top Fields</a>
+                                    <a class="nav-link linkmenu-GrayBlue ml-lg-4 " href="top-fields.html">Top Fields</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="#">About</a>
+                                    <a class="nav-link linkmenu-GrayBlue  ml-lg-4 " href="about.html">About</a>
                                 </li>
 
                                 <!--Line between menu items and M icon -->
@@ -90,13 +89,13 @@
                                 <li class="nav-item">
                                     <button type="button"
                                         class="btn text-primary font-weight-bold mt-1 mr-lg-1 ml-lg-1 register-button-gray"
-                                        style="">Register</button>
+                                        ><a href="register.html" class="link-decoration text-white">Register</a></button>
 
-                                    <a href="#" class="nav-link linkmenu-GrayBlue register-link">Register</a>
+                                    <a href="register.html" class="nav-link linkmenu-GrayBlue register-link">Register</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link font-weight-bold color-gray img-responsive" href="#"> <img
+                                    <a class="nav-link font-weight-bold color-gray img-responsive" href="login.html"> <img
                                             src="assets/images/loginGray.png"> Log In</a>
                                 </li>
                             </ul>
@@ -107,54 +106,52 @@
         </div>
     </header>
     <!-- Statistics -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="mt-5" id="paragraph1">Search for subjects, schools & subjects</div>
-                <div class="mt-2" id="paragraph2">Search information based on the three following indicators.</div>
-                <p class="mt-2 mb-3" id="paragraph3">You can search by at least one indicator.</p>
-                <!--<div class="form-row align-items-center">
-                    <div class="col-auto my-1">-->
+    <!--Search for schools and subject-->
+<div class="container">
+<div class="row">
+    <div class="col-lg-12 text-center ">
+      <div class="mt-5" id="paragraph1">Search for  schools & fields</div>
+      <div class="mt-2" id="paragraph2">Search information based on the three following indicators.</div>
+      <p class="mt-2 mb-3" id="paragraph3">You can search by at least one indicator.</p>
+       <!--<div class="form-row align-items-center">
+        <div class="col-auto my-1">-->
 
-                <!-- Options: Teacher, City, School -->
-                <div class="row component">
-                    <div class="col-3 text-left" id="teacherOption" onclick="FteacherOption()">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect">Subject</label>
-                        <input type="text" class="form-control" id="inlineFormInputName" placeholder="Mathematics">
-                    </div>
-                    <div class="col-3 text-left" id="cityOption" onclick="FcityOption()">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect">City</label>
-                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                            <option selected>Choose a city</option>
-                            <option value="1">Kamenica</option>
-                            <option value="2">Lipjani</option>
-                            <option value="3">Vitia</option>
-                            <option value="4">Deçani</option>
-                            <option value="5">Klina</option>
-                            <option value="6">Vushtrria</option>
-                        </select>
-                    </div>
-                    <div class="col-3 text-left" id="schoolOption" onclick="FschoolOption()">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect">School</label>
-                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                            <option selected>Choose a school</option>
-                            <option value="1">Option1</option>
-                            <option value="2">Option2</option>
-                            <option value="3">Option3</option>
-                            <option value="4">Option4</option>
-                        </select>
-                    </div>
-                    <div class="col-3 text-center">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
-                        <button type="submit" class="btn btn-primary form-control mt-2">Search</button>
-                    </div>
-                </div>
+          <!-- Options: Teacher, City, School -->
+          <div class="row component">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left" id="teacherOption" onclick="FteacherOption()">
+              <label class="mr-sm-2 ask-input-focus-1 mt-2" for="inlineFormCustomSelect">Field</label>
+              <input type="text" class="form-control ask-input" id="1" placeholder="Mathematics">
             </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-left "  id="cityOption" onclick="FcityOption()">
+              <label class="mr-sm-2 ask-input-focus-2 mt-2" for="inlineFormCustomSelect ">City</label>
+              <select class="custom-select mr-sm-2 ask-input" id="2">
+                <option selected>Choose a city</option>
+                <option value="1">Kamenica</option>
+                <option value="3">Vitia</option>
+                <option value="5">Klina</option>
+              </select>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 text-left" id="schoolOption" onclick="FschoolOption()">
+              <label class="mr-sm-2 ask-input-focus-3 mt-2" for="inlineFormCustomSelect">School</label>
+              <select class="custom-select mr-sm-2 ask-input" id="3">
+                <option selected>Choose a school</option>
+                <option value="1">Option1</option>
+                <option value="2">Option2</option>
+                <option value="3">Option3</option>
+                <option value="4">Option4</option>
+              </select>
+            </div>
+            <div class="col-6 col-sm-3 col-md-2 col-lg-3 col-xl-3 text-center">
+              <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+              <button type="submit" class="btn btn-primary form-control mt-2">Search</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
-    </div>
-    <!--End Search for schools and subject-->
+  </div>
+</div>
+<!--End Search for schools and subject-->
     <div class="container ">
         <div class="row">
             <div class="col-12 text-center">
@@ -261,24 +258,24 @@
    
 
 
-    <div class="container-fluid footer-img ml-0 mt-4">
+    <div class="container-fluid  ml-0 mt-4">
         <div class="row bg-primary">
-            <div class="col-lg-3 offset-lg-1 col-sm-9 offset-sm-3 col-md-5 offset-md-3 mb-5">
+            <div class="col-9 col-sm-9 col-md-3 col-lg-3 col-xl-3  offset-sm-3 offset-md-0 offset-lg-1  mb-5 text-center text-sm-left">
                 <p class="text-white mt-5">Funded By</p>
                 <img src="assets/images/be.png" style="width:20%;height: auto;">
                 <img src="assets/images/tech.png" style="width:29%;height: auto;">
             </div>
-            <div class="col-lg-3 offset-lg-1 col-sm-10 mb-5 date-custom">
-                <p class="text-white ml-lg-5 mt-5">January 2019</p>
+            <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 offset-lg-1 mb-5 date-custom text-md-right text-lg-left">
+                <p class="text-white ml-md-5 ml-lg-5 mt-5 ">March 2019</p>
             </div>
-            <div class="col-lg-3 offset-lg-1 col-sm-10 offset-sm-3 mb-5 ">
-                <p class="text-white mt-5 text-lg-center ">Implemented by</p>
+            <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 offset-sm-3 offset-lg-1  mb-5 text-center text-sm-left text-md-right text-lg-left">
+                <p class="text-white mt-5 ml-lg-2 text-sm-left text-md-right text-lg-left">Implemented by</p>
                 <img src="assets/images/opendata.png" class="ml-lg-3 " style="width:20%;height: auto;">
-                <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4" style="width:29%;height: auto;">
+                <img src="assets/images/girlscoding.png" class="ml-lg-5 ml-sm-4 "  style="width:29%;height: auto;">
             </div>
         </div>
-
     </div>
+    
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
