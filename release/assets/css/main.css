@@ -1289,3 +1289,23 @@ table th:last-child{
   color: rgb(150,150,150);
 }
 /* End Best School Field*/
+
+/* Subject evaluation*/
+.col-questionnarie-custom{
+      -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.83); 
+        box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.83);
+    }
+  .custom-number-question{
+      width: 25px !important;
+  height: 25px !important;
+  line-height: 25px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border:1px solid #0067f4;
+  
+  }
+  /* End Subject evaluation*/
