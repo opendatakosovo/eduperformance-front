@@ -12,12 +12,18 @@ body {
   background-size: cover;
   height: 100%;
 }
+.div-background-fields {
+  background-image: url(/assets/images/header-fields.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 
 .div-background-school {
   background-image: url(/assets/images/school.png);
    background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
 
 .lineWhite {
@@ -675,8 +681,8 @@ div#t2 {
   background-color: #0067f4;
 }
 
-.BestFieldsBackground {
-  background-image: url(/assets/images/best-fields.png);
+.BestTopFieldsBackground {
+  background-image: url(/assets/images/bestschool.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1267,6 +1273,10 @@ table th:last-child{
     display: none !important;
    }
    .BestFieldsBackground 
+   {
+    display: none !important;
+   }
+   .BestTopFieldsBackground 
    {
     display: none !important;
    }
