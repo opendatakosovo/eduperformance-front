@@ -15,23 +15,23 @@ body
 /*set image in header like background image*/
 .div-backgroundLanding
   {
-     background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landing.jpg);
+     /*background-image: url(https://opendatakosovo.github.io/eduperformance-front/landing_page/images/landing.jpg);*/
+     background-image: url(images/landing.jpg);
     background-repeat:no-repeat; 
     background-size:cover;
-    height:100vh;
+    height:100%;
   }
 
 
 #city{
   background-color: rgba(255,255,255,0);
-  border:3px solid white;
+  border:1px solid white;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
   font-family: 'Poppins', sans-serif !important;
-  padding: 10px 15px;
+  padding: 10px 19px;
   font-size: 14px;
-
+  outline: none;
 }
 #city option{
   color:black;
@@ -40,13 +40,20 @@ body
   color:white;
 }
 .landing-font{
-   font-size: 500% ;
-   font-weight: bold;
+   font-size: 400% ;
+   font-weight: extra bold;
    text-shadow: 0 0 40px rgba(0,0,0, 0.6);
-   margin-bottom: 18% !important; 
+   
 
 }
  
+   .footer{ 
+      display: table-row;
+      vertical-align: bottom;
+      padding-top: 10%;
+      padding-bottom: 2%;
+   }  
+
 .colorBlue
   {
     color:#0067f4;
@@ -55,30 +62,21 @@ body
 
 
 @media only screen and (max-width: 992px) {
-
  .landing-font{
   font-size:380% !important;
   }
-  
 }
 
-/*changes in small size - medium*/
 @media only screen and (max-width: 771px) {
-
-  
   .landing-font{
-  font-size:340% !important;
-  }
-
-  
+  font-size:300% !important;
+  } 
 }
 
-@media only screen and (max-width: 451px) {
-
-  .landing-font
-  {
-    font-size:200% !important;
-  }
+@media only screen and (max-width: 460px) {
+  .landing-font{
+  font-size:250% !important;
+  } 
 }
 
 @media only screen and (max-width: 300px){

@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <!--Cdn google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,800" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="main.js"></script>
  <link rel="shortcut icon" href="images/eduperformanca-logo.png" />
@@ -20,23 +20,24 @@
     <!--div for background img -->
     <div class="menu img-responsive div-backgroundLanding" >
       <!--div for transparent navbar -->
-     <div class="navbar transparent navbar-inverse">
-        <div class="navbar-inner" style="width: 100%;">
-        
+      <div class="container-fluid">
+        <div class="row pt-2 pl-4">
+         <div class="col-4 col-sm-3 col-md-2 col-lg-1 col-xl-2"><img src="images/landing-logo.png" style="width: 50%; height: auto;"></div>
         </div> 
       </div>
+      
      <!--text-->
      <div class="container ">
        <div class="row mt-custom-Landing  ">
-         <div class="col-12 text-white ">
-           <h1 class="landing-font mt-custom-Landing  text-center">edUPerformanca</h1>
+         <div class="col-12 text-white">
+           <h1 class=" mt-custom-Landing font-weight-bold text-center landing-font">Please select a city:</h1>
           </div>
        </div>
        <div class="row mb-5">
-         <div class="col-12  mb-5 mt-lg-5 mr-0 text-center">
+         <div class="col-12  mb-5  mr-0 text-center">
          
                 <select id="city" name="city">
-                  <option value="">Please Select</option>
+                  <option value="">Choose a city</option>
                     <option value="Kamenica">Kamenicë</option>
                     <option value="Klina">Klinë</option>
                     <option value="Vitia">Viti</option>
@@ -44,9 +45,14 @@
          </div>
         
        </div>
-     </div> 
+     </div>
+     <div class="container-fluid">
+       <div class="row mb-2">
+          <div class="col-12 text-center footer text-white" >By using <span class="font-weight-bold">edUPerformanca</span> you can rate your fields, list the best fields & schools.<br>This way you can give your contribution towards an imporved education system in your country.</div> 
+       </div>
+     </div>
     </div>
-   </div> 
+  
 </header>
 
   
